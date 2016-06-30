@@ -1,0 +1,14 @@
+﻿
+@{
+    Html.Partial(MVC.Views.Shared._LayoutBds);
+    ViewData["Title"] = Serenity.LocalText.Get("Db.NewsManagement.TblPrivateNews.EntityPlural");
+}
+
+<div id="GridDiv"></div>
+
+<script type="text/javascript">
+    jQuery(function () {
+        new MovieTutorial.NewsManagement.TblPrivateNewsGrid($('#GridDiv'), {}).init();
+        Q.initFullHeightGridPage($('#GridDiv'));
+    });
+</script>

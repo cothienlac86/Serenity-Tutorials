@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@Html.Partial("_LayoutHead")
+<body>
+    @Html.Partial("_LayoutHeader")
+    <div class="container">
+        <!-- Static navbar -->
+        @Html.Partial("_LayoutNav")
+        <!-- Body section-->
+        @RenderBody()
+    </div> <!-- /container -->
+    @Html.Partial("_LayoutFooter")
+</body>
+</html>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script>window.jQuery || document.write('<script src="/Content/bds/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="/Content/bds/dist/js/moment.js"></script>
+<script src="/Content/bds/dist/js/bootstrap.min.js"></script>
+<script src="/Content/bds/dist/js/bootstrap-datetimepicker.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/Content/bds/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type='text/javascript'>window._sbzq || function (e) { e._sbzq = []; var t = e._sbzq; t.push(["_setAccount", 32222]); var n = e.location.protocol == "https:" ? "https:" : "http:"; var r = document.createElement("script"); r.type = "text/javascript"; r.async = true; r.src = n + "//static.subiz.com/public/js/loader.js"; var i = document.getElementsByTagName("script")[0]; i.parentNode.insertBefore(r, i) }(window);</script>
+@RenderSection("scripts", required: false)
