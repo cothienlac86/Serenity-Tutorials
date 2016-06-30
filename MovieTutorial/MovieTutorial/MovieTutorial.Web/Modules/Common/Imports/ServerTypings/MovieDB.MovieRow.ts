@@ -8,8 +8,10 @@
         ReleaseDate?: string;
         Runtime?: number;
         Kind?: MovieKind;
-        GenreId?: number;
-        GenreName?: string;
+        GenreList?: number[];
+        CastList?: MovieCastRow[];
+        PrimaryImage?: string;
+        GalleryImages?: string;
     }
 
     export namespace MovieRow {
@@ -26,11 +28,13 @@
             export declare const ReleaseDate: string;
             export declare const Runtime: string;
             export declare const Kind: string;
-            export declare const GenreId: string;
-            export declare const GenreName: string;
+            export declare const GenreList: string;
+            export declare const CastList: string;
+            export declare const PrimaryImage: string;
+            export declare const GalleryImages: string;
         }
 
-        ['MovieId', 'Title', 'Description', 'Storyline', 'Year', 'ReleaseDate', 'Runtime', 'Kind', 'GenreId', 'GenreName'].forEach(x => (<any>Fields)[x] = x);
+        ['MovieId', 'Title', 'Description', 'Storyline', 'Year', 'ReleaseDate', 'Runtime', 'Kind', 'GenreList', 'CastList', 'PrimaryImage', 'GalleryImages'].forEach(x => (<any>Fields)[x] = x);
     }
 }
 

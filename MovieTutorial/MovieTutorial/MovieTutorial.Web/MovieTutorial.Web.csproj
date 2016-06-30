@@ -78,24 +78,24 @@
       <HintPath>..\..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Serenity.Core, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Serenity.Core.2.2.0\lib\net45\Serenity.Core.dll</HintPath>
+    <Reference Include="Serenity.Core, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serenity.Core.2.2.1\lib\net45\Serenity.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Serenity.Data, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Serenity.Data.2.2.0\lib\net45\Serenity.Data.dll</HintPath>
+    <Reference Include="Serenity.Data, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serenity.Data.2.2.1\lib\net45\Serenity.Data.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Serenity.Data.Entity, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Serenity.Data.Entity.2.2.0\lib\net45\Serenity.Data.Entity.dll</HintPath>
+    <Reference Include="Serenity.Data.Entity, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serenity.Data.Entity.2.2.1\lib\net45\Serenity.Data.Entity.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Serenity.Services, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Serenity.Services.2.2.0\lib\net45\Serenity.Services.dll</HintPath>
+    <Reference Include="Serenity.Services, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serenity.Services.2.2.1\lib\net45\Serenity.Services.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Serenity.Web, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Serenity.Web.2.2.0\lib\net45\Serenity.Web.dll</HintPath>
+    <Reference Include="Serenity.Web, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serenity.Web.2.2.1\lib\net45\Serenity.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.DirectoryServices" />
@@ -141,7 +141,6 @@
     <Reference Include="System.Web.Services" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Modules\Common\Migrations\NorthwindDB\NorthwindDBScript_SqlServer.sql" />
     <Content Include="Content\adminlte\img\avatar.png" />
     <Content Include="Content\adminlte\img\avatar04.png" />
     <Content Include="Content\adminlte\img\avatar2.png" />
@@ -166,6 +165,79 @@
     <Content Include="Content\aristo\images\slider_handles.png" />
     <Content Include="Content\aristo\images\ui-icons_222222_256x240.png" />
     <Content Include="Content\aristo\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\bds\assets\brand\bootstrap-outline.svg" />
+    <Content Include="Content\bds\assets\brand\bootstrap-punchout.svg" />
+    <Content Include="Content\bds\assets\brand\bootstrap-solid.svg" />
+    <Content Include="Content\bds\assets\css\demo.css" />
+    <Content Include="Content\bds\assets\css\docs.min.css" />
+    <Content Include="Content\bds\assets\css\header-basic-light.css" />
+    <Content Include="Content\bds\assets\css\header-user-dropdown.css" />
+    <Content Include="Content\bds\assets\css\ie10-viewport-bug-workaround.css" />
+    <Content Include="Content\bds\assets\css\src\docs.css" />
+    <Content Include="Content\bds\assets\css\src\pygments-manni.css" />
+    <Content Include="Content\bds\assets\flash\ZeroClipboard.swf" />
+    <Content Include="Content\bds\assets\img\2.jpg" />
+    <Content Include="Content\bds\assets\img\a22.png" />
+    <Content Include="Content\bds\assets\img\b05.png" />
+    <Content Include="Content\bds\assets\img\blue.jpg" />
+    <Content Include="Content\bds\assets\img\c-finger-pointing.png" />
+    <Content Include="Content\bds\assets\img\c-fruit.png" />
+    <Content Include="Content\bds\assets\img\c-jssor-slider.png" />
+    <Content Include="Content\bds\assets\img\c-navigator-horizontal.png" />
+    <Content Include="Content\bds\assets\img\c-navigator.png" />
+    <Content Include="Content\bds\assets\img\c-phone-horizontal.png" />
+    <Content Include="Content\bds\assets\img\c-phone.png" />
+    <Content Include="Content\bds\assets\img\c-slide-1.jpg" />
+    <Content Include="Content\bds\assets\img\c-slide-3.jpg" />
+    <Content Include="Content\bds\assets\img\c-text.png" />
+    <Content Include="Content\bds\assets\img\components.png" />
+    <Content Include="Content\bds\assets\img\devices.png" />
+    <Content Include="Content\bds\assets\img\expo-lyft.jpg" />
+    <Content Include="Content\bds\assets\img\expo-newsweek.jpg" />
+    <Content Include="Content\bds\assets\img\expo-riot.jpg" />
+    <Content Include="Content\bds\assets\img\expo-vogue.jpg" />
+    <Content Include="Content\bds\assets\img\loading.gif" />
+    <Content Include="Content\bds\assets\img\purple.jpg" />
+    <Content Include="Content\bds\assets\img\red.jpg" />
+    <Content Include="Content\bds\assets\img\sass-less.png" />
+    <Content Include="Content\bds\assets\js\customize.min.js" />
+    <Content Include="Content\bds\assets\js\docs.min.js" />
+    <Content Include="Content\bds\assets\js\ie-emulation-modes-warning.js" />
+    <Content Include="Content\bds\assets\js\ie10-viewport-bug-workaround.js" />
+    <Content Include="Content\bds\assets\js\ie8-responsive-file-warning.js" />
+    <Content Include="Content\bds\assets\js\jquery-1.8.2.min.js" />
+    <Content Include="Content\bds\assets\js\jquery-1.9.1.min.js" />
+    <Content Include="Content\bds\assets\js\jssor.slider.debug.js" />
+    <Content Include="Content\bds\assets\js\jssor.slider.min.js" />
+    <Content Include="Content\bds\assets\js\jssor.slider.mini.js" />
+    <Content Include="Content\bds\assets\js\raw-files.min.js" />
+    <Content Include="Content\bds\assets\js\src\application.js" />
+    <Content Include="Content\bds\assets\js\src\customizer.js" />
+    <Content Include="Content\bds\assets\js\vendor\anchor.js" />
+    <Content Include="Content\bds\assets\js\vendor\autoprefixer.js" />
+    <Content Include="Content\bds\assets\js\vendor\Blob.js" />
+    <Content Include="Content\bds\assets\js\vendor\FileSaver.js" />
+    <Content Include="Content\bds\assets\js\vendor\holder.min.js" />
+    <Content Include="Content\bds\assets\js\vendor\jquery.min.js" />
+    <Content Include="Content\bds\assets\js\vendor\jszip.min.js" />
+    <Content Include="Content\bds\assets\js\vendor\less.min.js" />
+    <Content Include="Content\bds\assets\js\vendor\uglify.min.js" />
+    <Content Include="Content\bds\assets\js\vendor\ZeroClipboard.min.js" />
+    <Content Include="Content\bds\custom-css\style.css" />
+    <Content Include="Content\bds\custom-js\customrize.js" />
+    <Content Include="Content\bds\dist\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="Content\bds\dist\css\bootstrap-theme.css" />
+    <Content Include="Content\bds\dist\css\bootstrap-theme.min.css" />
+    <Content Include="Content\bds\dist\css\bootstrap.css" />
+    <Content Include="Content\bds\dist\css\bootstrap.min.css" />
+    <Content Include="Content\bds\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bds\dist\js\bootstrap-datetimepicker.js" />
+    <Content Include="Content\bds\dist\js\bootstrap.js" />
+    <Content Include="Content\bds\dist\js\bootstrap.min.js" />
+    <Content Include="Content\bds\dist\js\moment.js" />
+    <Content Include="Content\bds\dist\js\npm.js" />
+    <Content Include="Content\bds\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bds\img\captcha.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -510,6 +582,7 @@
     <Content Include="Content\serenity\images\zoom.png" />
     <Content Include="Content\serenity\serenity.css" />
     <Content Include="Content\simple-line-icons.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="Content\site\images\serenity-logo-40.png" />
     <Content Include="Content\site\images\serenity-logo-g-40.png" />
     <Content Include="Content\site\images\serenity-logo-w-40.png" />
@@ -519,7 +592,6 @@
     <Content Include="Content\site\site.htmlcontent.css" />
     <Content Include="Content\site\site.css" />
     <Content Include="Content\site\site.mixins.less" />
-    <Content Include="Content\site\site.northwind.less" />
     <Content Include="Content\site\site.membership.less" />
     <Content Include="Content\adminlte\.csslintrc" />
     <Content Include="Content\adminlte\404_500_errors.less" />
@@ -645,6 +717,7 @@
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
+    <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -653,9 +726,6 @@
     <Content Include="fonts\Simple-Line-Icons.svg" />
     <Content Include="Modules\Common\Imports\MultipleOutputHelper.ttinclude" />
     <Content Include="Content\site\site.administration.less" />
-    <EmbeddedResource Include="Modules\Common\Migrations\NorthwindDB\NorthwindDBScript_Postgres.sql" />
-    <EmbeddedResource Include="Modules\Common\Migrations\NorthwindDB\NorthwindDBScript_PostgresData.sql" />
-    <EmbeddedResource Include="Modules\Common\Migrations\NorthwindDB\NorthwindDBScript_MySql.sql" />
     <Content Include="Modules\Common\Imports\ClientTypes\ClientTypes.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ClientTypes.log</LastGenOutput>
@@ -1154,17 +1224,6 @@
     <Content Include="Scripts\ionslider\ion.rangeSlider.min.js" />
     <Content Include="Scripts\ionslider\ion.rangeSlider.skinFlat.css" />
     <Content Include="Scripts\ionslider\ion.rangeSlider.skinNice.css" />
-    <Content Include="Modules\BasicSamples\Dialogs\ChartInDialog\Index.cshtml" />
-    <Content Include="Content\site\site.basicsamples.less" />
-    <Content Include="Modules\BasicSamples\Grids\ViewWithoutID\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Grids\GridFilteredByCriteria\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\DefaultValuesInNewDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Grids\GroupingAndSummariesInGrid\Index.cshtml" />
     <Content Include="Modules\Common\Imports\CodeGenerationHelpers.ttinclude" />
     <Content Include="Modules\Common\Imports\ClientTypes\ClientTypes.log">
       <AutoGen>True</AutoGen>
@@ -1184,7 +1243,6 @@
     <TypeScriptCompile Include="Modules\Administration\User\Authentication\Authorization.ts" />
     <TypeScriptCompile Include="Modules\Administration\User\UserGrid.ts" />
     <TypeScriptCompile Include="Modules\Administration\User\UserDialog.ts" />
-    <Content Include="Modules\BasicSamples\Grids\CancellableBulkAction\Index.cshtml" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
@@ -1207,6 +1265,19 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\bds\assets\css\docs.min.css.map" />
+    <Content Include="Content\bds\dist\css\bootstrap-theme.css.map" />
+    <Content Include="Content\bds\dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bds\dist\css\bootstrap.css.map" />
+    <Content Include="Content\bds\dist\css\bootstrap.min.css.map" />
+    <Content Include="Content\bds\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bds\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bds\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bds\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\bds\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bds\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bds\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bds\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Modules\Common\Imports\ServerTypings\ServerTypings.log">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1229,13 +1300,28 @@
     <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Common.UserPreferenceUpdateRequest.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.Gender.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.GenreColumns.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.MovieCastColumns.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.MovieCastService.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.MovieColumns.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.MovieKind.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.PersonColumns.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.PersonMovieColumns.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Modules\Common\Navigation\ThemeSelection.ts" />
@@ -1248,31 +1334,19 @@
     <TypeScriptCompile Include="Modules\Membership\Account\ResetPassword\ResetPasswordPanel.ts" />
     <TypeScriptCompile Include="Modules\Membership\Account\LoginPanel.ts" />
     <TypeScriptCompile Include="Modules\Membership\Account\SignUp\SignUpPanel.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Category\CategoryDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Category\CategoryGrid.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Customer\CustomerGrid.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Customer\CustomerOrderDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Customer\CustomerEditor.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Customer\CustomerDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Employee\EmployeeFormatter.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Note\NoteDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Order\OrderDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Order\FreightFormatter.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Region\RegionDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Region\RegionGrid.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Shared\PhoneEditor.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Shipper\ShipperDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Shipper\ShipperFormatter.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Shipper\ShipperGrid.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Supplier\SupplierGrid.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Supplier\SupplierDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Territory\TerritoryDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Territory\TerritoryGrid.ts" />
+    <TypeScriptCompile Include="Modules\MovieDB\MovieCast\MovieCastEditDialog.ts" />
+    <TypeScriptCompile Include="Modules\MovieDB\MovieCast\MovieCastEditor.ts" />
+    <TypeScriptCompile Include="Modules\MovieDB\Movie\GenreListFormatter.ts" />
+    <Content Include="Modules\MovieDB\Person\MovieDB.PersonDialog.Template.html" />
+    <TypeScriptCompile Include="Modules\MovieDB\Person\PersonMovieGrid.ts" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
     <Content Include="Scripts\jquery-ui-i18n.js" />
     <Content Include="Scripts\jquery-ui-i18n.min.js" />
     <Content Include="Scripts\jquery.autoNumeric.js" />
@@ -1302,10 +1376,18 @@
     <Content Include="Scripts\jquery.scrollintoview.min.js" />
     <Content Include="Scripts\jquery.slimscroll.js" />
     <Content Include="Scripts\jquery.slimscroll.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\jsrender.js" />
     <Content Include="Scripts\jsrender.min.js" />
+    <Content Include="Scripts\knockout-3.4.0.debug.js" />
+    <Content Include="Scripts\knockout-3.4.0.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\pace.js" />
     <Content Include="Scripts\pace.min.js" />
     <Content Include="Scripts\rsvp.js" />
@@ -1516,40 +1598,10 @@
     <Content Include="Scripts\datatables\extensions\TableTools\Readme.md" />
     <Content Include="Scripts\input-mask\phone-codes\phone-be.json" />
     <Content Include="Scripts\input-mask\phone-codes\phone-codes.json" />
-    <Content Include="Modules\AdminLTE\Widgets.cshtml" />
-    <Content Include="Modules\AdminLTE\Charts\Morris.cshtml" />
-    <Content Include="Modules\AdminLTE\Charts\ChartJS.cshtml" />
-    <Content Include="Modules\AdminLTE\Charts\Flot.cshtml" />
-    <Content Include="Modules\AdminLTE\Charts\InlineCharts.cshtml" />
     <Content Include="Modules\Common\Imports\MVC\MVC.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>MVC.cs</LastGenOutput>
     </Content>
-    <Content Include="Modules\AdminLTE\UIElements\Buttons.cshtml" />
-    <Content Include="Modules\AdminLTE\UIElements\General.cshtml" />
-    <Content Include="Modules\AdminLTE\UIElements\Icons.cshtml" />
-    <Content Include="Modules\AdminLTE\UIElements\Modals.cshtml" />
-    <Content Include="Modules\AdminLTE\UIElements\Sliders.cshtml" />
-    <Content Include="Modules\AdminLTE\UIElements\Timeline.cshtml" />
-    <Content Include="Modules\AdminLTE\Forms\AdvancedElements.cshtml" />
-    <Content Include="Modules\AdminLTE\Forms\GeneralElements.cshtml" />
-    <Content Include="Modules\AdminLTE\Forms\TextEditors.cshtml" />
-    <Content Include="Modules\AdminLTE\Tables\SimpleTables.cshtml" />
-    <Content Include="Modules\AdminLTE\Tables\DataTables.cshtml" />
-    <Content Include="Modules\AdminLTE\Calendar.cshtml" />
-    <Content Include="Modules\AdminLTE\Mailbox\Inbox.cshtml" />
-    <Content Include="Modules\AdminLTE\Mailbox\Compose.cshtml" />
-    <Content Include="Modules\AdminLTE\Mailbox\Read.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\Invoice.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\Profile.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\Login.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\Register.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\Lockscreen.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\Error404.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\Error500.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\BlankPage.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\PacePage.cshtml" />
-    <Content Include="Modules\AdminLTE\Examples\InvoicePrint.cshtml" />
     <Content Include="Content\bootstrap-less\mixins\reset-text.less" />
     <Content Include="Modules\Membership\Account\SignUp\AccountSignUp.cshtml" />
     <Content Include="Modules\Membership\Account\SignUp\AccountActivateEmail.cshtml" />
@@ -1572,12 +1624,19 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\LeftNavigation.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Shared\_LayoutHead.cshtml" />
+    <Content Include="Views\Shared\_Layout_bak.cshtml" />
     <Content Include="Views\Shared\_LayoutNoNavigation.cshtml" />
     <Content Include="Views\Errors\ValidationError.cshtml" />
     <Content Include="Scripts\site\texts\site.texts.de.json" />
     <Content Include="tools\Web.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LayoutBDS.cshtml" />
+    <Content Include="Views\Shared\_LayoutHeader.cshtml" />
+    <Content Include="Views\Shared\_LayoutFooter.cshtml" />
+    <Content Include="Views\Shared\_LayoutNav.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutHead.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1585,51 +1644,15 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="Modules\Administration\User\UserIndex.cshtml" />
-    <Content Include="Modules\Northwind\Category\CategoryIndex.cshtml" />
-    <Content Include="Modules\Northwind\Customer\CustomerIndex.cshtml" />
-    <Content Include="Modules\Northwind\OrderDetail\OrderDetailIndex.cshtml" />
-    <Content Include="Modules\Northwind\Order\OrderIndex.cshtml" />
-    <Content Include="Modules\Northwind\Product\ProductIndex.cshtml" />
-    <Content Include="Modules\Northwind\Region\RegionIndex.cshtml" />
-    <Content Include="Modules\Northwind\Shipper\ShipperIndex.cshtml" />
-    <Content Include="Modules\Northwind\Supplier\SupplierIndex.cshtml" />
-    <Content Include="Modules\Northwind\Territory\TerritoryIndex.cshtml" />
     <Content Include="Modules\Administration\Language\LanguageIndex.cshtml" />
     <Content Include="Modules\Administration\Translation\TranslationIndex.cshtml" />
     <Content Include="Modules\Administration\Role\RoleIndex.cshtml" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ChartInDialog\ChartInDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\CloneableEntityDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\CloneableEntityGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\DefaultValuesInNewDialog\DefaultValuesInNewGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\MultiColumnResponsiveDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\MultiColumnResponsiveGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\ResponsiveDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\ResponsiveGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupOrderDetailDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupInDetailDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupDetailEditor.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupInDetailGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\LookupFilterByMultipleGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\LookupFilterByMultipleDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\ProduceSeafoodCategoryEditor.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Grids\CancellableBulkAction\CancellableBulkActionGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Grids\GridFilteredByCriteria\GridFilteredByCriteria.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Grids\GroupingAndSummariesInGrid\GroupingAndSummariesInGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Grids\ViewWithoutID\ViewWithoutIDGrid.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\GridEditorDialog.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\ReportHelper.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\GridEditorBase.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\ExcelExportHelper.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\BasicProgressDialog.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\BulkServiceAction.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Customer\CustomerOrdersGrid.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Note\NotesEditor.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\OrderDetail\OrderDetailDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\OrderDetail\OrderDetailsEditor.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Order\OrderBulkAction.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Order\OrderGrid.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Product\ProductDialog.ts" />
-    <TypeScriptCompile Include="Modules\Northwind\Product\ProductGrid.ts" />
     <TypeScriptCompile Include="Scripts\serenity\Serenity.CoreLib.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jspdf\jspdf.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\rsvp\rsvp.d.ts" />
@@ -1660,6 +1683,48 @@
     </TypeScriptCompile>
     <TypeScriptCompile Include="Modules\MovieDB\Genre\GenreGrid.ts" />
     <TypeScriptCompile Include="Modules\MovieDB\Genre\GenreDialog.ts" />
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.MovieGenresRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <Content Include="Modules\MovieDB\Person\PersonIndex.cshtml" />
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.PersonRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.PersonService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.PersonForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\MovieDB\Person\PersonGrid.ts" />
+    <TypeScriptCompile Include="Modules\MovieDB\Person\PersonDialog.ts" />
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.MovieCastRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\MovieDB.MovieCastForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\PrivateNews.TblPrivateNewsRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\PrivateNews.TblPrivateNewsService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\PrivateNews.TblPrivateNewsForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <Content Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsIndex.cshtml" />
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\NewsManagement.TblPrivateNewsRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\NewsManagement.TblPrivateNewsService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\NewsManagement.TblPrivateNewsForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsGrid.ts" />
+    <TypeScriptCompile Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsDialog.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -1672,9 +1737,26 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\SiteInitialization.Migrations.cs" />
     <Compile Include="App_Start\SiteInitialization.cs" />
+    <Compile Include="Controllers\Home\HomeController.cs" />
+    <Compile Include="Entity\AreaDb.cs" />
+    <Compile Include="Entity\MenuDb.cs" />
+    <Compile Include="Entity\NewsDb.cs" />
+    <Compile Include="Entity\PrivateNewsDb.cs" />
+    <Compile Include="Entity\SpammersEntity.cs" />
+    <Compile Include="Entity\Tree.cs" />
+    <Compile Include="Entity\UserDb.cs" />
+    <Compile Include="Generate\Common.cs" />
+    <Compile Include="Generate\Crypto.cs" />
+    <Compile Include="Generate\LoginProvider.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AreaModel.cs" />
+    <Compile Include="Models\MenuModels.cs" />
+    <Compile Include="Models\NewsModels.cs" />
+    <Compile Include="Models\PrivateNewsModel.cs" />
+    <Compile Include="Models\SpammersModel.cs" />
+    <Compile Include="Models\UserModels.cs" />
     <Compile Include="Modules\Administration\Language\LanguageLookup.cs" />
     <Compile Include="Modules\Administration\RolePermission\RolePermissionUpdateRequest.cs" />
     <Compile Include="Modules\Administration\RolePermission\RolePermissionListResponse.cs" />
@@ -1686,26 +1768,12 @@
     <Compile Include="Modules\Administration\UserRole\UserRoleListResponse.cs" />
     <Compile Include="Modules\Administration\UserRole\UserRoleListRequest.cs" />
     <Compile Include="Modules\Administration\UserRole\UserRoleEndpoint.cs" />
-    <Content Include="Modules\AdminLTE\DashboardV2.cshtml" />
     <Compile Include="Modules\Administration\User\Authentication\DirectoryEntry.cs" />
     <Compile Include="Modules\Administration\User\Authentication\ActiveDirectoryService.cs" />
     <Compile Include="Modules\Administration\User\Authentication\LdapDirectoryService.cs" />
     <Compile Include="Modules\Administration\User\Authentication\IDirectoryService.cs" />
     <Compile Include="Modules\Administration\User\Authentication\ScriptUserDefinition.cs" />
     <Compile Include="Modules\Administration\User\UserColumns.cs" />
-    <Compile Include="Modules\AdminLTE\AdminLTEController.cs" />
-    <Compile Include="Modules\AdminLTE\Charts\ChartsController.cs" />
-    <Compile Include="Modules\AdminLTE\Examples\ExamplesController.cs" />
-    <Compile Include="Modules\AdminLTE\Mailbox\MailboxController.cs" />
-    <Compile Include="Modules\AdminLTE\Tables\TablesController.cs" />
-    <Compile Include="Modules\AdminLTE\Forms\FormsController.cs" />
-    <Compile Include="Modules\AdminLTE\UIElements\UIElementsController.cs" />
-    <Compile Include="Modules\BasicSamples\BasicSamplesEndpoint.cs" />
-    <Compile Include="Modules\BasicSamples\BasicSamplesHelper.cs" />
-    <Compile Include="Modules\BasicSamples\BasicSamplesModels.cs" />
-    <Compile Include="Modules\BasicSamples\BasicSamplesPage.cs" />
-    <Compile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupInDetailForm.cs" />
-    <Compile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\LookupFilterByMultipleForm.cs" />
     <Compile Include="Modules\Common\Dashboard\DashboardPageModel.cs" />
     <Compile Include="Modules\Common\File\FilePage.cs" />
     <Compile Include="Modules\Common\Helpers\DetailListSaveHandler.cs" />
@@ -1715,33 +1783,15 @@
     <Compile Include="Modules\Common\Imports\ClientTypes\Administration.RoleCheckEditorAttribute.cs">
       <DependentUpon>ClientTypes.tt</DependentUpon>
     </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\BasicSamples.FilteredLookupDetailEditorAttribute.cs">
+    <Compile Include="Modules\Common\Imports\ClientTypes\MovieDB.GenreListFormatterAttribute.cs">
       <DependentUpon>ClientTypes.tt</DependentUpon>
     </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\BasicSamples.ProduceSeafoodCategoryEditorAttribute.cs">
+    <Compile Include="Modules\Common\Imports\ClientTypes\MovieDB.MovieCastEditorAttribute.cs">
       <DependentUpon>ClientTypes.tt</DependentUpon>
     </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\Northwind.CustomerEditorAttribute.cs">
-      <DependentUpon>ClientTypes.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\Northwind.EmployeeFormatterAttribute.cs">
-      <DependentUpon>ClientTypes.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\Northwind.FreightFormatterAttribute.cs">
-      <DependentUpon>ClientTypes.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\Northwind.NotesEditorAttribute.cs">
-      <DependentUpon>ClientTypes.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\Northwind.OrderDetailsEditorAttribute.cs">
-      <DependentUpon>ClientTypes.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\Northwind.PhoneEditorAttribute.cs">
-      <DependentUpon>ClientTypes.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modules\Common\Imports\ClientTypes\Northwind.ShipperFormatterAttribute.cs">
-      <DependentUpon>ClientTypes.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20160603_205900_PersonMovieImages.cs" />
+    <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20160528_141600_PersonAndMovieCast.cs" />
+    <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20160528_115400_MovieGenres.cs" />
     <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20160519_181800_SampleGenres.cs" />
     <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20160519_154700_GenreTable.cs" />
     <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20160519_145500_MovieKind.cs" />
@@ -1750,12 +1800,6 @@
     <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20160515_072600_UserPreferences.cs" />
     <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20151217_000600_LastDirectoryUpdate.cs" />
     <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20151111_133500_UserPermissionGrant.cs" />
-    <Compile Include="Modules\Common\Migrations\NorthwindDB\NorthwindDB_20160216_154900_DataLocalization.cs" />
-    <Compile Include="Modules\Common\Migrations\NorthwindDB\NorthwindDB_20160121_141200_CustomerRepresentatives.cs" />
-    <Compile Include="Modules\Common\Migrations\NorthwindDB\NorthwindDB_20151226_184500_Notes.cs" />
-    <Compile Include="Modules\Common\Migrations\NorthwindDB\NorthwindDB_20151202_193700_ProductLog.cs" />
-    <Compile Include="Modules\Common\Migrations\NorthwindDB\NorthwindDB_20151014_030700_OrderDetailID.cs" />
-    <Compile Include="Modules\Common\Migrations\NorthwindDB\NorthwindDB_20141123_155100_Initial.cs" />
     <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20141111_113000_Permissions.cs" />
     <Compile Include="Modules\Common\Migrations\DefaultDB\DefaultDB_20141103_140000_Initial.cs" />
     <Compile Include="Modules\Administration\Translation\TranslationUpdateRequest.cs" />
@@ -1770,7 +1814,6 @@
     </Compile>
     <Compile Include="Modules\Common\Navigation\NavigationItems.cs" />
     <Compile Include="Modules\Common\Navigation\NavigationModel.cs" />
-    <Content Include="Modules\Northwind\Customer\Northwind.CustomerDialog.Template.html" />
     <Compile Include="Modules\Common\Reporting\DynamicDataReport.cs" />
     <Compile Include="Modules\Common\Reporting\ExcelReportGenerator.cs" />
     <Compile Include="Modules\Common\Reporting\ReportController.cs" />
@@ -1795,33 +1838,10 @@
     <Compile Include="Modules\Membership\Account\SignUp\SignUpForm.cs" />
     <Compile Include="Modules\Membership\Account\SignUp\SignUpRequest.cs" />
     <Compile Include="Modules\Common\UserPreference\UserPreferenceRow.cs" />
+    <Compile Include="Modules\MovieDB\MovieCast\MovieCastEndpoint.cs" />
     <Compile Include="Modules\MovieDB\Movie\MovieKind.cs" />
-    <Compile Include="Modules\Northwind\CategoryLang\CategoryLangEndpoint.cs" />
-    <Compile Include="Modules\Northwind\CategoryLang\CategoryLangRepository.cs" />
-    <Compile Include="Modules\Northwind\CategoryLang\CategoryLangRow.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerLookup.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerCity.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerRepresentativesRow.cs" />
-    <Compile Include="Modules\Northwind\Employee\Gender.cs" />
-    <Compile Include="Modules\Northwind\Category\CategoryColumns.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerColumns.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerCountryLookup.cs" />
-    <Compile Include="Modules\Northwind\Note\NotesBehavior.cs" />
-    <Compile Include="Modules\Northwind\OrderDetail\OrderDetailColumns.cs" />
-    <None Include="Modules\Northwind\Order\OrderDetailReport.cshtml" />
-    <Compile Include="Modules\Northwind\Order\OrderDetailReport.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderShippingState.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderShipCity.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderShipCountry.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderColumns.cs" />
-    <Compile Include="Modules\Northwind\PermissionKeys.cs" />
-    <Compile Include="Modules\Northwind\Product\ProductColumns.cs" />
-    <Compile Include="Modules\Northwind\Product\ProductLogRow.cs" />
-    <Compile Include="Modules\Northwind\Region\RegionColumns.cs" />
-    <Compile Include="Modules\Northwind\Shipper\ShipperColumns.cs" />
-    <Compile Include="Modules\Northwind\Supplier\SupplierColumns.cs" />
-    <Compile Include="Modules\Northwind\Supplier\SupplierCountryLookup.cs" />
-    <Compile Include="Modules\Northwind\Territory\TerritoryColumns.cs" />
+    <Compile Include="Modules\MovieDB\Person\Gender.cs" />
+    <Compile Include="Modules\MovieDB\Person\PersonMovieColumns.cs" />
     <Compile Include="Modules\Texts.cs" />
     <Compile Include="Modules\Membership\Account\AccountPage.cs" />
     <Compile Include="Modules\Administration\User\Authentication\AuthorizationService.cs" />
@@ -1838,55 +1858,6 @@
     <Compile Include="Modules\Administration\User\UserRepository.cs" />
     <Compile Include="Modules\Administration\User\UserEndpoint.cs" />
     <Compile Include="Modules\Administration\User\UserPage.cs" />
-    <Compile Include="Modules\Northwind\Category\CategoryRow.cs" />
-    <Compile Include="Modules\Northwind\Category\CategoryForm.cs" />
-    <Compile Include="Modules\Northwind\Category\CategoryRepository.cs" />
-    <Compile Include="Modules\Northwind\Category\CategoryEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Category\CategoryPage.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerRow.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerForm.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerRepository.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Customer\CustomerPage.cs" />
-    <Compile Include="Modules\Northwind\Employee\EmployeeRow.cs" />
-    <Compile Include="Modules\Northwind\EmployeeTerritory\EmployeeTerritoryRow.cs" />
-    <Compile Include="Modules\Northwind\OrderDetail\OrderDetailRow.cs" />
-    <Compile Include="Modules\Northwind\OrderDetail\OrderDetailForm.cs" />
-    <Compile Include="Modules\Northwind\OrderDetail\OrderDetailRepository.cs" />
-    <Compile Include="Modules\Northwind\OrderDetail\OrderDetailEndpoint.cs" />
-    <Compile Include="Modules\Northwind\OrderDetail\OrderDetailPage.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderRow.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderForm.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderRepository.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Order\OrderPage.cs" />
-    <Compile Include="Modules\Northwind\Product\ProductRow.cs" />
-    <Compile Include="Modules\Northwind\Product\ProductForm.cs" />
-    <Compile Include="Modules\Northwind\Product\ProductRepository.cs" />
-    <Compile Include="Modules\Northwind\Product\ProductEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Product\ProductPage.cs" />
-    <Compile Include="Modules\Northwind\Region\RegionRow.cs" />
-    <Compile Include="Modules\Northwind\Region\RegionForm.cs" />
-    <Compile Include="Modules\Northwind\Region\RegionRepository.cs" />
-    <Compile Include="Modules\Northwind\Region\RegionEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Region\RegionPage.cs" />
-    <Compile Include="Modules\Northwind\Shipper\ShipperRow.cs" />
-    <Compile Include="Modules\Northwind\Shipper\ShipperForm.cs" />
-    <Compile Include="Modules\Northwind\Shipper\ShipperRepository.cs" />
-    <Compile Include="Modules\Northwind\Shipper\ShipperEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Shipper\ShipperPage.cs" />
-    <Compile Include="Modules\Northwind\Supplier\SupplierRow.cs" />
-    <Compile Include="Modules\Northwind\Supplier\SupplierForm.cs" />
-    <Compile Include="Modules\Northwind\Supplier\SupplierRepository.cs" />
-    <Compile Include="Modules\Northwind\Supplier\SupplierEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Supplier\SupplierPage.cs" />
-    <Compile Include="Modules\Northwind\Territory\TerritoryRow.cs" />
-    <Compile Include="Modules\Northwind\Territory\TerritoryForm.cs" />
-    <Compile Include="Modules\Northwind\Territory\TerritoryRepository.cs" />
-    <Compile Include="Modules\Northwind\Territory\TerritoryEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Territory\TerritoryPage.cs" />
-    <Compile Include="Modules\Northwind\CustomerDemographic\CustomerDemographicRow.cs" />
-    <Compile Include="Modules\Northwind\CustomerCustomerDemo\CustomerCustomerDemoRow.cs" />
     <Compile Include="Modules\Administration\Language\LanguageRow.cs" />
     <Compile Include="Modules\Administration\Language\LanguageColumns.cs" />
     <Compile Include="Modules\Administration\Language\LanguageForm.cs" />
@@ -1910,15 +1881,6 @@
     <Compile Include="Modules\Administration\UserPermission\UserPermissionRow.cs" />
     <Compile Include="Modules\Administration\UserPermission\UserPermissionRepository.cs" />
     <Compile Include="Modules\Administration\UserPermission\UserPermissionEndpoint.cs" />
-    <Compile Include="Modules\Northwind\Note\NoteRow.cs" />
-    <Compile Include="Modules\Northwind\Note\NoteRepository.cs" />
-    <Compile Include="Modules\Northwind\ProductLang\ProductLangRow.cs" />
-    <Compile Include="Modules\Northwind\ProductLang\ProductLangRepository.cs" />
-    <Compile Include="Modules\Northwind\ProductLang\ProductLangEndpoint.cs" />
-    <Compile Include="Modules\Northwind\SalesByCategory\SalesByCategoryRow.cs" />
-    <Compile Include="Modules\Northwind\SalesByCategory\SalesByCategoryColumns.cs" />
-    <Compile Include="Modules\Northwind\SalesByCategory\SalesByCategoryRepository.cs" />
-    <Compile Include="Modules\Northwind\SalesByCategory\SalesByCategoryEndpoint.cs" />
     <Compile Include="Modules\MovieDB\Movie\MovieRow.cs" />
     <Compile Include="Modules\MovieDB\Movie\MovieColumns.cs" />
     <Compile Include="Modules\MovieDB\Movie\MovieForm.cs" />
@@ -1931,6 +1893,24 @@
     <Compile Include="Modules\MovieDB\Genre\GenreRepository.cs" />
     <Compile Include="Modules\MovieDB\Genre\GenreEndpoint.cs" />
     <Compile Include="Modules\MovieDB\Genre\GenrePage.cs" />
+    <Compile Include="Modules\MovieDB\MovieGenres\MovieGenresRow.cs" />
+    <Compile Include="Modules\MovieDB\MovieGenres\MovieGenresRepository.cs" />
+    <Compile Include="Modules\MovieDB\Person\PersonRow.cs" />
+    <Compile Include="Modules\MovieDB\Person\PersonColumns.cs" />
+    <Compile Include="Modules\MovieDB\Person\PersonForm.cs" />
+    <Compile Include="Modules\MovieDB\Person\PersonRepository.cs" />
+    <Compile Include="Modules\MovieDB\Person\PersonEndpoint.cs" />
+    <Compile Include="Modules\MovieDB\Person\PersonPage.cs" />
+    <Compile Include="Modules\MovieDB\MovieCast\MovieCastRow.cs" />
+    <Compile Include="Modules\MovieDB\MovieCast\MovieCastColumns.cs" />
+    <Compile Include="Modules\MovieDB\MovieCast\MovieCastForm.cs" />
+    <Compile Include="Modules\MovieDB\MovieCast\MovieCastRepository.cs" />
+    <Compile Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsRow.cs" />
+    <Compile Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsColumns.cs" />
+    <Compile Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsForm.cs" />
+    <Compile Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsRepository.cs" />
+    <Compile Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsEndpoint.cs" />
+    <Compile Include="Modules\NewsManagement\TblPrivateNews\TblPrivateNewsPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2031,24 +2011,6 @@
     <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Administration.UserService.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\BasicSamples.BasicSamplesService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\BasicSamples.FilteredLookupInDetailForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\BasicSamples.LookupFilterByMultipleForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\BasicSamples.OrderBulkActionRequest.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\BasicSamples.OrdersByShipperRequest.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\BasicSamples.OrdersByShipperResponse.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
     <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Common.Pages.UploadResponse.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
@@ -2080,162 +2042,6 @@
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Membership.SignUpRequest.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CategoryColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CategoryForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CategoryLangRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CategoryLangService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CategoryRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CategoryService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CustomerColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CustomerCustomerDemoRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CustomerDemographicRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CustomerForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CustomerRepresentativesRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CustomerRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.CustomerService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.EmployeeRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.EmployeeTerritoryRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.Gender.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.NoteRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderDetailColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderDetailForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderDetailRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderDetailService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.OrderShippingState.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ProductColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ProductForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ProductLangRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ProductLangService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ProductLogRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ProductRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ProductService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.RegionColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.RegionForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.RegionRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.RegionService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.SalesByCategoryColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.SalesByCategoryRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.SalesByCategoryService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ShipperColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ShipperForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ShipperRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.ShipperService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.SupplierColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.SupplierForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.SupplierRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.SupplierService.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.TerritoryColumns.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.TerritoryForm.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.TerritoryRow.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\Northwind.TerritoryService.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Modules\Common\Imports\ServerTypings\ScriptUserDefinition.ts">

@@ -11,7 +11,7 @@
 
     public static partial class SiteInitialization
     {
-        private static string[] databaseKeys = new[] { "Default", "Northwind" };
+        private static string[] databaseKeys = new[] { "Default", "InfoWebAppDb_v2.1" };
 
         /// <summary>
         /// Automatically creates a database for the template if it doesn't already exists.
@@ -113,8 +113,8 @@
             if (cs.ConnectionString.IndexOf(typeof(SiteInitialization).Namespace +
                     @"_" + databaseKey + "_v1", StringComparison.OrdinalIgnoreCase) < 0)
             {
-                SkippedMigrations = true;
-                return;
+                //SkippedMigrations = true;
+                //return;
             }
 
             string databaseType = "SqlServer";

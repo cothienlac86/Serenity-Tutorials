@@ -1,21 +1,26 @@
 @import "site.theme.less";
 @import "site.mixins.less";
 @import "site.administration.less";
-@import "site.basicsamples.less";
 @import "site.membership.less";
-@import "site.northwind.less";
 
 .s-MovieDB-MovieDialog {
     > .size { width: 650px; height: 500px; }
     .caption { width: 150px; }
 }
 
-/* ------------------------------------------------------------------------- */
-/* APPENDED BY CODE GENERATOR, MOVE TO CORRECT PLACE AND REMOVE THIS COMMENT */
-/* ------------------------------------------------------------------------- */
-
-
 .s-MovieDB-GenreDialog {
     > .size { width: 650px; }
     .caption { width: 150px; }
+}
+
+.s-MovieDB-PersonDialog {
+    > .size { width: 700px; height: 600px; }
+    .caption { width: 150px; }
+    .s-PersonMovieGrid > .grid-container { height: 500px; }
+}
+
+.s-MovieDB-MovieCastEditDialog {
+    > .size { width: 450px; }
+    .caption { width: 120px; }
+    .s-PropertyGrid .categories { height: 120px; }
 }

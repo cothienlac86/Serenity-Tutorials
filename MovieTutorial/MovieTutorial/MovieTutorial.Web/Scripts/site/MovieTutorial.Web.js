@@ -11,611 +11,151 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var TerritoryDialog = (function (_super) {
-            __extends(TerritoryDialog, _super);
-            function TerritoryDialog() {
+    var NewsManagement;
+    (function (NewsManagement) {
+        var TblPrivateNewsDialog = (function (_super) {
+            __extends(TblPrivateNewsDialog, _super);
+            function TblPrivateNewsDialog() {
                 _super.apply(this, arguments);
-                this.form = new Northwind.TerritoryForm(this.idPrefix);
+                this.form = new NewsManagement.TblPrivateNewsForm(this.idPrefix);
             }
-            TerritoryDialog.prototype.getFormKey = function () { return Northwind.TerritoryForm.formKey; };
-            TerritoryDialog.prototype.getIdProperty = function () { return Northwind.TerritoryRow.idProperty; };
-            TerritoryDialog.prototype.getLocalTextPrefix = function () { return Northwind.TerritoryRow.localTextPrefix; };
-            TerritoryDialog.prototype.getNameProperty = function () { return Northwind.TerritoryRow.nameProperty; };
-            TerritoryDialog.prototype.getService = function () { return Northwind.TerritoryService.baseUrl; };
-            TerritoryDialog.prototype.getLanguages = function () {
-                return MovieTutorial.LanguageList.getValue();
-            };
-            TerritoryDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], TerritoryDialog);
-            return TerritoryDialog;
-        }(Serenity.EntityDialog));
-        Northwind.TerritoryDialog = TerritoryDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var TerritoryGrid = (function (_super) {
-            __extends(TerritoryGrid, _super);
-            function TerritoryGrid(container) {
-                _super.call(this, container);
-            }
-            TerritoryGrid.prototype.getColumnsKey = function () { return "Northwind.Territory"; };
-            TerritoryGrid.prototype.getDialogType = function () { return Northwind.TerritoryDialog; };
-            TerritoryGrid.prototype.getIdProperty = function () { return Northwind.TerritoryRow.idProperty; };
-            TerritoryGrid.prototype.getLocalTextPrefix = function () { return Northwind.TerritoryRow.localTextPrefix; };
-            TerritoryGrid.prototype.getService = function () { return Northwind.TerritoryService.baseUrl; };
-            TerritoryGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], TerritoryGrid);
-            return TerritoryGrid;
-        }(Serenity.EntityGrid));
-        Northwind.TerritoryGrid = TerritoryGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var SupplierDialog = (function (_super) {
-            __extends(SupplierDialog, _super);
-            function SupplierDialog() {
-                _super.apply(this, arguments);
-                this.form = new Northwind.SupplierForm(this.idPrefix);
-            }
-            SupplierDialog.prototype.getFormKey = function () { return Northwind.SupplierForm.formKey; };
-            SupplierDialog.prototype.getIdProperty = function () { return Northwind.SupplierRow.idProperty; };
-            SupplierDialog.prototype.getLocalTextPrefix = function () { return Northwind.SupplierRow.localTextPrefix; };
-            SupplierDialog.prototype.getNameProperty = function () { return Northwind.SupplierRow.nameProperty; };
-            SupplierDialog.prototype.getService = function () { return Northwind.SupplierService.baseUrl; };
-            SupplierDialog.prototype.getLanguages = function () {
-                return MovieTutorial.LanguageList.getValue();
-            };
-            SupplierDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], SupplierDialog);
-            return SupplierDialog;
-        }(Serenity.EntityDialog));
-        Northwind.SupplierDialog = SupplierDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var SupplierGrid = (function (_super) {
-            __extends(SupplierGrid, _super);
-            function SupplierGrid(container) {
-                _super.call(this, container);
-            }
-            SupplierGrid.prototype.getColumnsKey = function () { return "Northwind.Supplier"; };
-            SupplierGrid.prototype.getDialogType = function () { return Northwind.SupplierDialog; };
-            SupplierGrid.prototype.getIdProperty = function () { return Northwind.SupplierRow.idProperty; };
-            SupplierGrid.prototype.getLocalTextPrefix = function () { return Northwind.SupplierRow.localTextPrefix; };
-            SupplierGrid.prototype.getService = function () { return Northwind.SupplierService.baseUrl; };
-            SupplierGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], SupplierGrid);
-            return SupplierGrid;
-        }(Serenity.EntityGrid));
-        Northwind.SupplierGrid = SupplierGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ShipperDialog = (function (_super) {
-            __extends(ShipperDialog, _super);
-            function ShipperDialog() {
-                _super.apply(this, arguments);
-                this.form = new Northwind.ShipperForm(this.idPrefix);
-            }
-            ShipperDialog.prototype.getFormKey = function () { return Northwind.ShipperForm.formKey; };
-            ShipperDialog.prototype.getIdProperty = function () { return Northwind.ShipperRow.idProperty; };
-            ShipperDialog.prototype.getLocalTextPrefix = function () { return Northwind.ShipperRow.localTextPrefix; };
-            ShipperDialog.prototype.getNameProperty = function () { return Northwind.ShipperRow.nameProperty; };
-            ShipperDialog.prototype.getService = function () { return Northwind.ShipperService.baseUrl; };
-            ShipperDialog.prototype.getLanguages = function () {
-                return MovieTutorial.LanguageList.getValue();
-            };
-            ShipperDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], ShipperDialog);
-            return ShipperDialog;
-        }(Serenity.EntityDialog));
-        Northwind.ShipperDialog = ShipperDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ShipperFormatter = (function () {
-            function ShipperFormatter() {
-            }
-            ShipperFormatter.prototype.format = function (ctx) {
-                return "<span class='shipper-symbol shipper-" +
-                    Q.replaceAll((ctx.value || '').toString(), ' ', '') +
-                    "'>" + Q.htmlEncode(ctx.value) + '</span>';
-            };
-            ShipperFormatter = __decorate([
-                Serenity.Decorators.registerFormatter()
-            ], ShipperFormatter);
-            return ShipperFormatter;
-        }());
-        Northwind.ShipperFormatter = ShipperFormatter;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ShipperGrid = (function (_super) {
-            __extends(ShipperGrid, _super);
-            function ShipperGrid(container) {
-                _super.call(this, container);
-            }
-            ShipperGrid.prototype.getColumnsKey = function () { return "Northwind.Shipper"; };
-            ShipperGrid.prototype.getDialogType = function () { return Northwind.ShipperDialog; };
-            ShipperGrid.prototype.getIdProperty = function () { return Northwind.ShipperRow.idProperty; };
-            ShipperGrid.prototype.getLocalTextPrefix = function () { return Northwind.ShipperRow.localTextPrefix; };
-            ShipperGrid.prototype.getService = function () { return Northwind.ShipperService.baseUrl; };
-            ShipperGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], ShipperGrid);
-            return ShipperGrid;
-        }(Serenity.EntityGrid));
-        Northwind.ShipperGrid = ShipperGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var PhoneEditor = (function (_super) {
-            __extends(PhoneEditor, _super);
-            function PhoneEditor(input) {
-                var _this = this;
-                _super.call(this, input);
-                this.addValidationRule(this.uniqueName, function (e) {
-                    var value = Q.trimToNull(_this.get_value());
-                    if (value == null) {
-                        return null;
-                    }
-                    return PhoneEditor.validate(value, _this.multiple);
-                });
-                input.bind('change', function (e) {
-                    if (!Serenity.WX.hasOriginalEvent(e)) {
-                        return;
-                    }
-                    _this.formatValue();
-                });
-                input.bind('blur', function (e) {
-                    if (_this.element.hasClass('valid')) {
-                        _this.formatValue();
-                    }
-                });
-            }
-            PhoneEditor.prototype.formatValue = function () {
-                this.element.val(this.getFormattedValue());
-            };
-            PhoneEditor.prototype.getFormattedValue = function () {
-                var value = this.element.val();
-                if (this.multiple) {
-                    return PhoneEditor.formatMulti(value, PhoneEditor.formatPhone);
-                }
-                return PhoneEditor.formatPhone(value);
-            };
-            PhoneEditor.prototype.get_value = function () {
-                return this.getFormattedValue();
-            };
-            PhoneEditor.prototype.set_value = function (value) {
-                this.element.val(value);
-            };
-            PhoneEditor.validate = function (phone, isMultiple) {
-                var valid = (isMultiple ? PhoneEditor.isValidMulti(phone, PhoneEditor.isValidPhone) : PhoneEditor.isValidPhone(phone));
-                if (valid) {
-                    return null;
-                }
-                return Q.text((isMultiple ? 'Validation.NorthwindPhoneMultiple' : 'Validation.NorthwindPhone'));
-            };
-            PhoneEditor.isValidPhone = function (phone) {
-                if (Q.isEmptyOrNull(phone)) {
-                    return false;
-                }
-                phone = Q.replaceAll(Q.replaceAll(phone, ' ', ''), '-', '');
-                if (phone.length < 10) {
-                    return false;
-                }
-                if (Q.startsWith(phone, '0')) {
-                    phone = phone.substring(1);
-                }
-                if (Q.startsWith(phone, '(') && phone.charAt(4) === ')') {
-                    phone = phone.substr(1, 3) + phone.substring(5);
-                }
-                if (phone.length !== 10) {
-                    return false;
-                }
-                if (Q.startsWith(phone, '0')) {
-                    return false;
-                }
-                for (var i = 0; i < phone.length; i++) {
-                    var c = phone.charAt(i);
-                    if (c < '0' || c > '9') {
-                        return false;
-                    }
-                }
-                return true;
-            };
-            PhoneEditor.formatPhone = function (phone) {
-                if (!PhoneEditor.isValidPhone(phone)) {
-                    return phone;
-                }
-                phone = Q.replaceAll(Q.replaceAll(Q.replaceAll(Q.replaceAll(phone, ' ', ''), '-', ''), '(', ''), ')', '');
-                if (Q.startsWith(phone, '0')) {
-                    phone = phone.substring(1);
-                }
-                phone = '(' + phone.substr(0, 3) + ') ' + phone.substr(3, 3) + '-' + phone.substr(6, 2) + phone.substr(8, 2);
-                return phone;
-            };
-            PhoneEditor.formatMulti = function (phone, format) {
-                var phones = Q.replaceAll(phone, String.fromCharCode(59), String.fromCharCode(44)).split(String.fromCharCode(44));
-                var result = '';
-                for (var _i = 0, phones_1 = phones; _i < phones_1.length; _i++) {
-                    var x = phones_1[_i];
-                    var s = Q.trimToNull(x);
-                    if (s == null) {
-                        continue;
-                    }
-                    if (result.length > 0) {
-                        result += ', ';
-                    }
-                    result += format(s);
-                }
-                return result;
-            };
-            PhoneEditor.isValidMulti = function (phone, check) {
-                if (Q.isEmptyOrNull(phone)) {
-                    return false;
-                }
-                var phones = Q.replaceAll(phone, String.fromCharCode(59), String.fromCharCode(44)).split(String.fromCharCode(44));
-                var anyValid = false;
-                for (var $t1 = 0; $t1 < phones.length; $t1++) {
-                    var x = phones[$t1];
-                    var s = Q.trimToNull(x);
-                    if (s == null) {
-                        continue;
-                    }
-                    if (!check(s)) {
-                        return false;
-                    }
-                    anyValid = true;
-                }
-                if (!anyValid) {
-                    return false;
-                }
-                return true;
-            };
-            __decorate([
-                Serenity.Decorators.option()
-            ], PhoneEditor.prototype, "multiple", void 0);
-            PhoneEditor = __decorate([
-                Serenity.Decorators.registerEditor()
-            ], PhoneEditor);
-            return PhoneEditor;
-        }(Serenity.StringEditor));
-        Northwind.PhoneEditor = PhoneEditor;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var RegionDialog = (function (_super) {
-            __extends(RegionDialog, _super);
-            function RegionDialog() {
-                _super.apply(this, arguments);
-                this.form = new Northwind.RegionForm(this.idPrefix);
-            }
-            RegionDialog.prototype.getFormKey = function () { return Northwind.RegionForm.formKey; };
-            RegionDialog.prototype.getIdProperty = function () { return Northwind.RegionRow.idProperty; };
-            RegionDialog.prototype.getLocalTextPrefix = function () { return Northwind.RegionRow.localTextPrefix; };
-            RegionDialog.prototype.getNameProperty = function () { return Northwind.RegionRow.nameProperty; };
-            RegionDialog.prototype.getService = function () { return Northwind.RegionService.baseUrl; };
-            RegionDialog.prototype.getLanguages = function () {
-                return MovieTutorial.LanguageList.getValue();
-            };
-            RegionDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], RegionDialog);
-            return RegionDialog;
-        }(Serenity.EntityDialog));
-        Northwind.RegionDialog = RegionDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var RegionGrid = (function (_super) {
-            __extends(RegionGrid, _super);
-            function RegionGrid(container) {
-                _super.call(this, container);
-            }
-            RegionGrid.prototype.getColumnsKey = function () { return "Northwind.Region"; };
-            RegionGrid.prototype.getDialogType = function () { return Northwind.RegionDialog; };
-            RegionGrid.prototype.getIdProperty = function () { return Northwind.RegionRow.idProperty; };
-            RegionGrid.prototype.getLocalTextPrefix = function () { return Northwind.RegionRow.localTextPrefix; };
-            RegionGrid.prototype.getService = function () { return Northwind.RegionService.baseUrl; };
-            RegionGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], RegionGrid);
-            return RegionGrid;
-        }(Serenity.EntityGrid));
-        Northwind.RegionGrid = RegionGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ProductDialog = (function (_super) {
-            __extends(ProductDialog, _super);
-            function ProductDialog() {
-                _super.apply(this, arguments);
-                this.form = new Northwind.ProductForm(this.idPrefix);
-            }
-            ProductDialog.prototype.getFormKey = function () { return Northwind.ProductForm.formKey; };
-            ProductDialog.prototype.getIdProperty = function () { return Northwind.ProductRow.idProperty; };
-            ProductDialog.prototype.getLocalTextPrefix = function () { return Northwind.ProductRow.localTextPrefix; };
-            ProductDialog.prototype.getNameProperty = function () { return Northwind.ProductRow.nameProperty; };
-            ProductDialog.prototype.getService = function () { return Northwind.ProductService.baseUrl; };
-            ProductDialog.prototype.getLanguages = function () {
-                return MovieTutorial.LanguageList.getValue();
-            };
-            ProductDialog = __decorate([
+            TblPrivateNewsDialog.prototype.getFormKey = function () { return NewsManagement.TblPrivateNewsForm.formKey; };
+            TblPrivateNewsDialog.prototype.getIdProperty = function () { return NewsManagement.TblPrivateNewsRow.idProperty; };
+            TblPrivateNewsDialog.prototype.getLocalTextPrefix = function () { return NewsManagement.TblPrivateNewsRow.localTextPrefix; };
+            TblPrivateNewsDialog.prototype.getNameProperty = function () { return NewsManagement.TblPrivateNewsRow.nameProperty; };
+            TblPrivateNewsDialog.prototype.getService = function () { return NewsManagement.TblPrivateNewsService.baseUrl; };
+            TblPrivateNewsDialog = __decorate([
                 Serenity.Decorators.registerClass(),
-                Serenity.Decorators.maximizable()
-            ], ProductDialog);
-            return ProductDialog;
+                Serenity.Decorators.responsive()
+            ], TblPrivateNewsDialog);
+            return TblPrivateNewsDialog;
         }(Serenity.EntityDialog));
-        Northwind.ProductDialog = ProductDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        NewsManagement.TblPrivateNewsDialog = TblPrivateNewsDialog;
+    })(NewsManagement = MovieTutorial.NewsManagement || (MovieTutorial.NewsManagement = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ProductGrid = (function (_super) {
-            __extends(ProductGrid, _super);
-            function ProductGrid(container) {
-                var _this = this;
+    var NewsManagement;
+    (function (NewsManagement) {
+        var TblPrivateNewsGrid = (function (_super) {
+            __extends(TblPrivateNewsGrid, _super);
+            function TblPrivateNewsGrid(container) {
                 _super.call(this, container);
-                this.pendingChanges = {};
-                this.slickContainer.on('change', '.edit:input', function (e) { return _this.inputsChange(e); });
             }
-            ProductGrid.prototype.getColumnsKey = function () { return "Northwind.Product"; };
-            ProductGrid.prototype.getDialogType = function () { return Northwind.ProductDialog; };
-            ProductGrid.prototype.getIdProperty = function () { return Northwind.ProductRow.idProperty; };
-            ProductGrid.prototype.getLocalTextPrefix = function () { return Northwind.ProductRow.localTextPrefix; };
-            ProductGrid.prototype.getService = function () { return Northwind.ProductService.baseUrl; };
-            ProductGrid.prototype.getButtons = function () {
-                var _this = this;
-                var buttons = _super.prototype.getButtons.call(this);
-                buttons.push(MovieTutorial.Common.ExcelExportHelper.createToolButton({
-                    grid: this,
-                    service: Northwind.ProductService.baseUrl + '/ListExcel',
-                    onViewSubmit: function () { return _this.onViewSubmit(); },
-                    separator: true
-                }));
-                buttons.push(MovieTutorial.Common.PdfExportHelper.createToolButton({
-                    grid: this,
-                    onViewSubmit: function () { return _this.onViewSubmit(); },
-                    reportTitle: 'Product List',
-                    columnTitles: {
-                        'Discontinued': 'Dis.',
-                    },
-                    tableOptions: {
-                        columnStyles: {
-                            ProductID: {
-                                columnWidth: 25,
-                                halign: 'right'
-                            },
-                            Discountinued: {
-                                columnWidth: 25
-                            }
-                        }
-                    }
-                }));
-                buttons.push({
-                    title: 'Save Changes',
-                    cssClass: 'apply-changes-button',
-                    onClick: function (e) { return _this.saveClick(); },
-                    separator: true
-                });
-                return buttons;
-            };
-            ProductGrid.prototype.onViewProcessData = function (response) {
-                this.pendingChanges = {};
-                this.setSaveButtonState();
-                return _super.prototype.onViewProcessData.call(this, response);
-            };
-            // PLEASE NOTE! Inline editing in grids is not something Serenity supports nor recommends.
-            // SlickGrid has some set of limitations, UI is very hard to use on some devices like mobile, 
-            // custom widgets and validations are not possible, and as a bonus the code can become a mess.
-            // 
-            // This was just a sample how-to after much requests, and is not supported. 
-            // This is all we can offer, please don't ask us to Guide you...
-            /**
-             * It would be nice if we could use autonumeric, Serenity editors etc. here, to control input validation,
-             * but it's not supported by SlickGrid as we are only allowed to return a string, and should attach
-             * no event handlers to rendered cell contents
-             */
-            ProductGrid.prototype.numericInputFormatter = function (ctx) {
-                var klass = 'edit numeric';
-                var item = ctx.item;
-                var pending = this.pendingChanges[item.ProductID];
-                if (pending && pending[ctx.column.field] !== undefined) {
-                    klass += ' dirty';
-                }
-                var value = this.getEffectiveValue(item, ctx.column.field);
-                return "<input type='text' class='" + klass + "'" +
-                    " value='" + Q.formatNumber(value, '0.##') + "'/>";
-            };
-            ProductGrid.prototype.stringInputFormatter = function (ctx) {
-                var klass = 'edit string';
-                var item = ctx.item;
-                var pending = this.pendingChanges[item.ProductID];
-                var column = ctx.column;
-                if (pending && pending[column.field] !== undefined) {
-                    klass += ' dirty';
-                }
-                var value = this.getEffectiveValue(item, column.field);
-                return "<input type='text' class='" + klass +
-                    "' value='" + Q.htmlEncode(value) +
-                    "' maxlength='" + column.sourceItem.maxLength + "'/>";
-            };
-            /**
-             * Sorry but you cannot use LookupEditor, e.g. Select2 here, only possible is a SELECT element
-             */
-            ProductGrid.prototype.selectFormatter = function (ctx, idField, lookup) {
-                var fld = Northwind.ProductRow.Fields;
-                var klass = 'edit';
-                var item = ctx.item;
-                var pending = this.pendingChanges[item.ProductID];
-                var column = ctx.column;
-                if (pending && pending[idField] !== undefined) {
-                    klass += ' dirty';
-                }
-                var value = this.getEffectiveValue(item, idField);
-                var markup = "<select class='" + klass +
-                    "' data-field='" + idField +
-                    "' style='width: 100%; max-width: 100%'>";
-                for (var _i = 0, _a = lookup.items; _i < _a.length; _i++) {
-                    var c = _a[_i];
-                    var id = c[lookup.idField];
-                    markup += "<option value='" + id + "'";
-                    if (id == value) {
-                        markup += " selected";
-                    }
-                    markup += ">" + Q.htmlEncode(c[lookup.textField]) + "</option>";
-                }
-                return markup + "</select>";
-            };
-            ProductGrid.prototype.getEffectiveValue = function (item, field) {
-                var pending = this.pendingChanges[item.ProductID];
-                if (pending && pending[field] !== undefined) {
-                    return pending[field];
-                }
-                return item[field];
-            };
-            ProductGrid.prototype.getColumns = function () {
-                var _this = this;
-                var columns = _super.prototype.getColumns.call(this);
-                var num = function (ctx) { return _this.numericInputFormatter(ctx); };
-                var str = function (ctx) { return _this.stringInputFormatter(ctx); };
-                var fld = Northwind.ProductRow.Fields;
-                Q.first(columns, function (x) { return x.field === 'QuantityPerUnit'; }).format = str;
-                var category = Q.first(columns, function (x) { return x.field === fld.CategoryName; });
-                category.referencedFields = [fld.CategoryID];
-                category.format = function (ctx) { return _this.selectFormatter(ctx, fld.CategoryID, Northwind.CategoryRow.getLookup()); };
-                var supplier = Q.first(columns, function (x) { return x.field === fld.SupplierCompanyName; });
-                supplier.referencedFields = [fld.SupplierID];
-                supplier.format = function (ctx) { return _this.selectFormatter(ctx, fld.SupplierID, Northwind.SupplierRow.getLookup()); };
-                Q.first(columns, function (x) { return x.field === fld.UnitPrice; }).format = num;
-                Q.first(columns, function (x) { return x.field === fld.UnitsInStock; }).format = num;
-                Q.first(columns, function (x) { return x.field === fld.UnitsOnOrder; }).format = num;
-                Q.first(columns, function (x) { return x.field === fld.ReorderLevel; }).format = num;
-                return columns;
-            };
-            ProductGrid.prototype.inputsChange = function (e) {
-                var cell = this.slickGrid.getCellFromEvent(e);
-                var item = this.itemAt(cell.row);
-                var input = $(e.target);
-                var field = input.data('field') || this.getColumns()[cell.cell].field;
-                var text = Q.coalesce(Q.trimToNull(input.val()), '0');
-                var pending = this.pendingChanges[item.ProductID];
-                var effective = this.getEffectiveValue(item, field);
-                var oldText;
-                if (input.hasClass("numeric"))
-                    oldText = Q.formatNumber(effective, '0.##');
-                else
-                    oldText = effective;
-                var value;
-                if (field === 'UnitPrice') {
-                    value = Q.parseDecimal(text);
-                    if (value == null || isNaN(value)) {
-                        Q.notifyError(Q.text('Validation.Decimal'), '', null);
-                        input.val(oldText);
-                        input.focus();
-                        return;
-                    }
-                }
-                else if (input.hasClass("numeric")) {
-                    var i = Q.parseInteger(text);
-                    if (isNaN(i) || i > 32767 || i < 0) {
-                        Q.notifyError(Q.text('Validation.Integer'), '', null);
-                        input.val(oldText);
-                        input.focus();
-                        return;
-                    }
-                    value = i;
-                }
-                else
-                    value = text;
-                if (!pending) {
-                    this.pendingChanges[item.ProductID] = pending = {};
-                }
-                pending[field] = value;
-                item[field] = value;
-                this.view.refresh();
-                if (input.hasClass("numeric"))
-                    value = Q.formatNumber(value, '0.##');
-                input.val(value).addClass('dirty');
-                this.setSaveButtonState();
-            };
-            ProductGrid.prototype.setSaveButtonState = function () {
-                this.toolbar.findButton('apply-changes-button').toggleClass('disabled', Object.keys(this.pendingChanges).length === 0);
-            };
-            ProductGrid.prototype.saveClick = function () {
-                if (Object.keys(this.pendingChanges).length === 0) {
-                    return;
-                }
-                // this calls save service for all modified rows, one by one
-                // you could write a batch update service
-                var keys = Object.keys(this.pendingChanges);
-                var current = -1;
-                var self = this;
-                (function saveNext() {
-                    if (++current >= keys.length) {
-                        self.refresh();
-                        return;
-                    }
-                    var key = keys[current];
-                    var entity = Q.deepClone(self.pendingChanges[key]);
-                    entity.ProductID = key;
-                    Q.serviceRequest('Northwind/Product/Update', {
-                        EntityId: key,
-                        Entity: entity
-                    }, function (response) {
-                        delete self.pendingChanges[key];
-                        saveNext();
-                    });
-                })();
-            };
-            ProductGrid = __decorate([
-                Serenity.Decorators.registerClass(),
-                Serenity.Decorators.filterable()
-            ], ProductGrid);
-            return ProductGrid;
+            TblPrivateNewsGrid.prototype.getColumnsKey = function () { return 'NewsManagement.TblPrivateNews'; };
+            TblPrivateNewsGrid.prototype.getDialogType = function () { return NewsManagement.TblPrivateNewsDialog; };
+            TblPrivateNewsGrid.prototype.getIdProperty = function () { return NewsManagement.TblPrivateNewsRow.idProperty; };
+            TblPrivateNewsGrid.prototype.getLocalTextPrefix = function () { return NewsManagement.TblPrivateNewsRow.localTextPrefix; };
+            TblPrivateNewsGrid.prototype.getService = function () { return NewsManagement.TblPrivateNewsService.baseUrl; };
+            TblPrivateNewsGrid = __decorate([
+                Serenity.Decorators.registerClass()
+            ], TblPrivateNewsGrid);
+            return TblPrivateNewsGrid;
         }(Serenity.EntityGrid));
-        Northwind.ProductGrid = ProductGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        NewsManagement.TblPrivateNewsGrid = TblPrivateNewsGrid;
+    })(NewsManagement = MovieTutorial.NewsManagement || (MovieTutorial.NewsManagement = {}));
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var MovieDB;
+    (function (MovieDB) {
+        var PersonDialog = (function (_super) {
+            __extends(PersonDialog, _super);
+            function PersonDialog() {
+                var _this = this;
+                _super.call(this);
+                this.form = new MovieDB.PersonForm(this.idPrefix);
+                this.moviesGrid = new MovieDB.PersonMovieGrid(this.byId("MoviesGrid"));
+                this.tabs.on('tabsactivate', function (e, i) {
+                    _this.arrange();
+                });
+            }
+            PersonDialog.prototype.getFormKey = function () { return MovieDB.PersonForm.formKey; };
+            PersonDialog.prototype.getIdProperty = function () { return MovieDB.PersonRow.idProperty; };
+            PersonDialog.prototype.getLocalTextPrefix = function () { return MovieDB.PersonRow.localTextPrefix; };
+            PersonDialog.prototype.getNameProperty = function () { return MovieDB.PersonRow.nameProperty; };
+            PersonDialog.prototype.getService = function () { return MovieDB.PersonService.baseUrl; };
+            PersonDialog.prototype.afterLoadEntity = function () {
+                _super.prototype.afterLoadEntity.call(this);
+                this.moviesGrid.personID = this.entityId;
+            };
+            PersonDialog = __decorate([
+                Serenity.Decorators.registerClass(),
+                Serenity.Decorators.responsive()
+            ], PersonDialog);
+            return PersonDialog;
+        }(Serenity.EntityDialog));
+        MovieDB.PersonDialog = PersonDialog;
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var MovieDB;
+    (function (MovieDB) {
+        var PersonGrid = (function (_super) {
+            __extends(PersonGrid, _super);
+            function PersonGrid(container) {
+                _super.call(this, container);
+            }
+            PersonGrid.prototype.getColumnsKey = function () { return 'MovieDB.Person'; };
+            PersonGrid.prototype.getDialogType = function () { return MovieDB.PersonDialog; };
+            PersonGrid.prototype.getIdProperty = function () { return MovieDB.PersonRow.idProperty; };
+            PersonGrid.prototype.getLocalTextPrefix = function () { return MovieDB.PersonRow.localTextPrefix; };
+            PersonGrid.prototype.getService = function () { return MovieDB.PersonService.baseUrl; };
+            PersonGrid = __decorate([
+                Serenity.Decorators.registerClass()
+            ], PersonGrid);
+            return PersonGrid;
+        }(Serenity.EntityGrid));
+        MovieDB.PersonGrid = PersonGrid;
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var MovieDB;
+    (function (MovieDB) {
+        var PersonMovieGrid = (function (_super) {
+            __extends(PersonMovieGrid, _super);
+            function PersonMovieGrid(container) {
+                _super.call(this, container);
+            }
+            PersonMovieGrid.prototype.getColumnsKey = function () { return "MovieDB.PersonMovie"; };
+            PersonMovieGrid.prototype.getIdProperty = function () { return MovieDB.MovieCastRow.idProperty; };
+            PersonMovieGrid.prototype.getLocalTextPrefix = function () { return MovieDB.MovieCastRow.localTextPrefix; };
+            PersonMovieGrid.prototype.getService = function () { return MovieDB.MovieCastService.baseUrl; };
+            PersonMovieGrid.prototype.getButtons = function () {
+                return null;
+            };
+            PersonMovieGrid.prototype.getInitialTitle = function () {
+                return null;
+            };
+            PersonMovieGrid.prototype.usePager = function () {
+                return false;
+            };
+            PersonMovieGrid.prototype.getGridCanLoad = function () {
+                return this.personID != null;
+            };
+            Object.defineProperty(PersonMovieGrid.prototype, "personID", {
+                get: function () {
+                    return this._personID;
+                },
+                set: function (value) {
+                    if (this._personID != value) {
+                        this._personID = value;
+                        this.setEquality(MovieDB.MovieCastRow.Fields.PersonId, value);
+                        this.refresh();
+                    }
+                },
+                enumerable: true,
+                configurable: true
+            });
+            PersonMovieGrid = __decorate([
+                Serenity.Decorators.registerClass()
+            ], PersonMovieGrid);
+            return PersonMovieGrid;
+        }(Serenity.EntityGrid));
+        MovieDB.PersonMovieGrid = PersonMovieGrid;
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
@@ -656,39 +196,24 @@ var MovieTutorial;
 /// <reference path="../../Common/Helpers/GridEditorDialog.ts" />
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderDetailDialog = (function (_super) {
-            __extends(OrderDetailDialog, _super);
-            function OrderDetailDialog() {
-                var _this = this;
+    var MovieDB;
+    (function (MovieDB) {
+        var MovieCastEditDialog = (function (_super) {
+            __extends(MovieCastEditDialog, _super);
+            function MovieCastEditDialog() {
                 _super.call(this);
-                this.form = new Northwind.OrderDetailForm(this.idPrefix);
-                this.form.ProductID.changeSelect2(function (e) {
-                    var productID = Q.toId(_this.form.ProductID.value);
-                    if (productID != null) {
-                        _this.form.UnitPrice.value = Northwind.ProductRow.getLookup().itemById[productID].UnitPrice;
-                    }
-                });
-                this.form.Discount.addValidationRule(this.uniqueName, function (e) {
-                    var price = _this.form.UnitPrice.value;
-                    var quantity = _this.form.Quantity.value;
-                    var discount = _this.form.Discount.value;
-                    if (price != null && quantity != null && discount != null &&
-                        discount > 0 && discount >= price * quantity) {
-                        return "Discount can't be higher than total price!";
-                    }
-                });
+                this.form = new MovieDB.MovieCastForm(this.idPrefix);
             }
-            OrderDetailDialog.prototype.getFormKey = function () { return Northwind.OrderDetailForm.formKey; };
-            OrderDetailDialog.prototype.getLocalTextPrefix = function () { return Northwind.OrderDetailRow.localTextPrefix; };
-            OrderDetailDialog = __decorate([
+            MovieCastEditDialog.prototype.getFormKey = function () { return MovieDB.MovieCastForm.formKey; };
+            MovieCastEditDialog.prototype.getNameProperty = function () { return MovieDB.MovieCastRow.nameProperty; };
+            MovieCastEditDialog.prototype.getLocalTextPrefix = function () { return MovieDB.MovieCastRow.localTextPrefix; };
+            MovieCastEditDialog = __decorate([
                 Serenity.Decorators.registerClass()
-            ], OrderDetailDialog);
-            return OrderDetailDialog;
+            ], MovieCastEditDialog);
+            return MovieCastEditDialog;
         }(MovieTutorial.Common.GridEditorDialog));
-        Northwind.OrderDetailDialog = OrderDetailDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        MovieDB.MovieCastEditDialog = MovieCastEditDialog;
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
@@ -819,782 +344,60 @@ var MovieTutorial;
 /// <reference path="../../Common/Helpers/GridEditorBase.ts" />
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderDetailsEditor = (function (_super) {
-            __extends(OrderDetailsEditor, _super);
-            function OrderDetailsEditor(container) {
+    var MovieDB;
+    (function (MovieDB) {
+        var MovieCastEditor = (function (_super) {
+            __extends(MovieCastEditor, _super);
+            function MovieCastEditor(container) {
                 _super.call(this, container);
             }
-            OrderDetailsEditor.prototype.getColumnsKey = function () { return "Northwind.OrderDetail"; };
-            OrderDetailsEditor.prototype.getDialogType = function () { return Northwind.OrderDetailDialog; };
-            OrderDetailsEditor.prototype.getLocalTextPrefix = function () { return Northwind.OrderDetailRow.localTextPrefix; };
-            OrderDetailsEditor.prototype.validateEntity = function (row, id) {
-                row.ProductID = Q.toId(row.ProductID);
-                var sameProduct = Q.tryFirst(this.view.getItems(), function (x) { return x.ProductID === row.ProductID; });
-                if (sameProduct && this.id(sameProduct) !== id) {
-                    Q.alert('This product is already in order details!');
+            MovieCastEditor.prototype.getColumnsKey = function () { return "MovieDB.MovieCast"; };
+            MovieCastEditor.prototype.getDialogType = function () { return MovieDB.MovieCastEditDialog; };
+            MovieCastEditor.prototype.getLocalTextPrefix = function () { return MovieDB.MovieCastRow.localTextPrefix; };
+            MovieCastEditor.prototype.getAddButtonCaption = function () {
+                return "Add";
+            };
+            MovieCastEditor.prototype.validateEntity = function (row, id) {
+                if (!_super.prototype.validateEntity.call(this, row, id))
                     return false;
-                }
-                row.ProductName = Northwind.ProductRow.getLookup().itemById[row.ProductID].ProductName;
-                row.LineTotal = (row.Quantity || 0) * (row.UnitPrice || 0) - (row.Discount || 0);
+                row.PersonFullname = MovieDB.PersonRow.getLookup()
+                    .itemById[row.PersonId].Fullname;
                 return true;
             };
-            OrderDetailsEditor = __decorate([
-                Serenity.Decorators.registerClass()
-            ], OrderDetailsEditor);
-            return OrderDetailsEditor;
-        }(MovieTutorial.Common.GridEditorBase));
-        Northwind.OrderDetailsEditor = OrderDetailsEditor;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var FreightFormatter = (function () {
-            function FreightFormatter() {
-            }
-            FreightFormatter.prototype.format = function (ctx) {
-                return "<span class='freight-symbol'>" + Q.htmlEncode(ctx.value) + '</span>';
-            };
-            FreightFormatter = __decorate([
-                Serenity.Decorators.registerFormatter()
-            ], FreightFormatter);
-            return FreightFormatter;
-        }());
-        Northwind.FreightFormatter = FreightFormatter;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Common;
-    (function (Common) {
-        var BulkServiceAction = (function () {
-            function BulkServiceAction() {
-            }
-            BulkServiceAction.prototype.createProgressDialog = function () {
-                this.progressDialog = new MovieTutorial.BasicProgressDialog();
-                this.progressDialog.dialogOpen();
-                this.progressDialog.max = this.keys.length;
-                this.progressDialog.value = 0;
-            };
-            BulkServiceAction.prototype.getConfirmationFormat = function () {
-                return Q.text('Site.BulkServiceAction.ConfirmationFormat');
-            };
-            BulkServiceAction.prototype.getConfirmationMessage = function (targetCount) {
-                return Q.format(this.getConfirmationFormat(), targetCount);
-            };
-            BulkServiceAction.prototype.confirm = function (targetCount, action) {
-                Q.confirm(this.getConfirmationMessage(targetCount), action);
-            };
-            BulkServiceAction.prototype.getNothingToProcessMessage = function () {
-                return Q.text('Site.BulkServiceAction.NothingToProcess');
-            };
-            BulkServiceAction.prototype.nothingToProcess = function () {
-                Q.notifyError(this.getNothingToProcessMessage());
-            };
-            BulkServiceAction.prototype.getParallelRequests = function () {
-                return 1;
-            };
-            BulkServiceAction.prototype.getBatchSize = function () {
-                return 1;
-            };
-            BulkServiceAction.prototype.startParallelExecution = function () {
-                this.createProgressDialog();
-                this.successCount = 0;
-                this.errorCount = 0;
-                this.pendingRequests = 0;
-                this.completedRequests = 0;
-                this.errorCount = 0;
-                this.errorByKey = {};
-                this.queue = this.keys.slice();
-                this.queueIndex = 0;
-                var parallelRequests = this.getParallelRequests();
-                while (parallelRequests-- > 0) {
-                    this.executeNextBatch();
-                }
-            };
-            BulkServiceAction.prototype.serviceCallCleanup = function () {
-                this.pendingRequests--;
-                this.completedRequests++;
-                var title = Q.text((this.progressDialog.cancelled ?
-                    'Site.BasicProgressDialog.CancelTitle' : 'Site.BasicProgressDialog.PleaseWait'));
-                title += ' (';
-                if (this.successCount > 0) {
-                    title += Q.format(Q.text('Site.BulkServiceAction.SuccessCount'), this.successCount);
-                }
-                if (this.errorCount > 0) {
-                    if (this.successCount > 0) {
-                        title += ', ';
-                    }
-                    title += Q.format(Q.text('Site.BulkServiceAction.ErrorCount'), this.errorCount);
-                }
-                this.progressDialog.title = title + ')';
-                this.progressDialog.value = this.successCount + this.errorCount;
-                if (!this.progressDialog.cancelled && this.progressDialog.value < this.keys.length) {
-                    this.executeNextBatch();
-                }
-                else if (this.pendingRequests === 0) {
-                    this.progressDialog.dialogClose();
-                    this.showResults();
-                    if (this.done) {
-                        this.done();
-                        this.done = null;
-                    }
-                }
-            };
-            BulkServiceAction.prototype.executeForBatch = function (batch) {
-            };
-            BulkServiceAction.prototype.executeNextBatch = function () {
-                var batchSize = this.getBatchSize();
-                var batch = [];
-                while (true) {
-                    if (batch.length >= batchSize) {
-                        break;
-                    }
-                    if (this.queueIndex >= this.queue.length) {
-                        break;
-                    }
-                    batch.push(this.queue[this.queueIndex++]);
-                }
-                if (batch.length > 0) {
-                    this.pendingRequests++;
-                    this.executeForBatch(batch);
-                }
-            };
-            BulkServiceAction.prototype.getAllHadErrorsFormat = function () {
-                return Q.text('Site.BulkServiceAction.AllHadErrorsFormat');
-            };
-            BulkServiceAction.prototype.showAllHadErrors = function () {
-                Q.notifyError(Q.format(this.getAllHadErrorsFormat(), this.errorCount));
-            };
-            BulkServiceAction.prototype.getSomeHadErrorsFormat = function () {
-                return Q.text('Site.BulkServiceAction.SomeHadErrorsFormat');
-            };
-            BulkServiceAction.prototype.showSomeHadErrors = function () {
-                Q.notifyWarning(Q.format(this.getSomeHadErrorsFormat(), this.successCount, this.errorCount));
-            };
-            BulkServiceAction.prototype.getAllSuccessFormat = function () {
-                return Q.text('Site.BulkServiceAction.AllSuccessFormat');
-            };
-            BulkServiceAction.prototype.showAllSuccess = function () {
-                Q.notifySuccess(Q.format(this.getAllSuccessFormat(), this.successCount));
-            };
-            BulkServiceAction.prototype.showResults = function () {
-                if (this.errorCount === 0 && this.successCount === 0) {
-                    this.nothingToProcess();
-                    return;
-                }
-                if (this.errorCount > 0 && this.successCount === 0) {
-                    this.showAllHadErrors();
-                    return;
-                }
-                if (this.errorCount > 0) {
-                    this.showSomeHadErrors();
-                    return;
-                }
-                this.showAllSuccess();
-            };
-            BulkServiceAction.prototype.execute = function (keys) {
-                var _this = this;
-                this.keys = keys;
-                if (this.keys.length === 0) {
-                    this.nothingToProcess();
-                    return;
-                }
-                this.confirm(this.keys.length, function () { return _this.startParallelExecution(); });
-            };
-            BulkServiceAction.prototype.get_successCount = function () {
-                return this.successCount;
-            };
-            BulkServiceAction.prototype.set_successCount = function (value) {
-                this.successCount = value;
-            };
-            BulkServiceAction.prototype.get_errorCount = function () {
-                return this.errorCount;
-            };
-            BulkServiceAction.prototype.set_errorCount = function (value) {
-                this.errorCount = value;
-            };
-            return BulkServiceAction;
-        }());
-        Common.BulkServiceAction = BulkServiceAction;
-    })(Common = MovieTutorial.Common || (MovieTutorial.Common = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../Common/Helpers/BulkServiceAction.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var OrderBulkAction = (function (_super) {
-            __extends(OrderBulkAction, _super);
-            function OrderBulkAction() {
-                _super.apply(this, arguments);
-            }
-            /**
-             * This controls how many service requests will be used in parallel.
-             * Determine this number based on how many requests your server
-             * might be able to handle, and amount of wait on external resources.
-             */
-            OrderBulkAction.prototype.getParallelRequests = function () {
-                return 10;
-            };
-            /**
-             * These number of records IDs will be sent to your service in one
-             * service call. If your service is designed to handle one record only,
-             * set it to 1. But note that, if you have 5000 records, this will
-             * result in 5000 service calls / requests.
-             */
-            OrderBulkAction.prototype.getBatchSize = function () {
-                return 5;
-            };
-            /**
-             * This is where you should call your service.
-             * Batch parameter contains the selected order IDs
-             * that should be processed in this service call.
-             */
-            OrderBulkAction.prototype.executeForBatch = function (batch) {
-                var _this = this;
-                BasicSamples.BasicSamplesService.OrderBulkAction({
-                    OrderIDs: batch.map(function (x) { return Q.parseInteger(x); })
-                }, function (response) { return _this.set_successCount(_this.get_successCount() + batch.length); }, {
-                    blockUI: false,
-                    onError: function (response) { return _this.set_errorCount(_this.get_errorCount() + batch.length); },
-                    onCleanup: function () { return _this.serviceCallCleanup(); }
-                });
-            };
-            return OrderBulkAction;
-        }(MovieTutorial.Common.BulkServiceAction));
-        BasicSamples.OrderBulkAction = OrderBulkAction;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderDialog = (function (_super) {
-            __extends(OrderDialog, _super);
-            function OrderDialog() {
-                _super.call(this);
-                this.form = new Northwind.OrderForm(this.idPrefix);
-            }
-            OrderDialog.prototype.getFormKey = function () { return Northwind.OrderForm.formKey; };
-            OrderDialog.prototype.getIdProperty = function () { return Northwind.OrderRow.idProperty; };
-            OrderDialog.prototype.getLocalTextPrefix = function () { return Northwind.OrderRow.localTextPrefix; };
-            OrderDialog.prototype.getNameProperty = function () { return Northwind.OrderRow.nameProperty; };
-            OrderDialog.prototype.getService = function () { return Northwind.OrderService.baseUrl; };
-            OrderDialog.prototype.getToolbarButtons = function () {
-                var _this = this;
-                var buttons = _super.prototype.getToolbarButtons.call(this);
-                buttons.push(MovieTutorial.Common.ReportHelper.createToolButton({
-                    title: 'Invoice',
-                    cssClass: 'export-pdf-button',
-                    reportKey: 'Northwind.OrderDetail',
-                    getParams: function () { return ({ OrderID: _this.get_entityId() }); }
-                }));
-                return buttons;
-            };
-            OrderDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], OrderDialog);
-            return OrderDialog;
-        }(Serenity.EntityDialog));
-        Northwind.OrderDialog = OrderDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderGrid = (function (_super) {
-            __extends(OrderGrid, _super);
-            function OrderGrid(container) {
-                _super.call(this, container);
-            }
-            OrderGrid.prototype.getColumnsKey = function () { return "Northwind.Order"; };
-            OrderGrid.prototype.getDialogType = function () { return Northwind.OrderDialog; };
-            OrderGrid.prototype.getIdProperty = function () { return Northwind.OrderRow.idProperty; };
-            OrderGrid.prototype.getLocalTextPrefix = function () { return Northwind.OrderRow.localTextPrefix; };
-            OrderGrid.prototype.getService = function () { return Northwind.OrderService.baseUrl; };
-            OrderGrid.prototype.createQuickFilters = function () {
-                _super.prototype.createQuickFilters.call(this);
-                var fld = Northwind.OrderRow.Fields;
-                this.shippingStateFilter = this.findQuickFilter(Serenity.EnumEditor, fld.ShippingState);
-            };
-            OrderGrid.prototype.getButtons = function () {
-                var _this = this;
-                var buttons = _super.prototype.getButtons.call(this);
-                buttons.push(MovieTutorial.Common.ExcelExportHelper.createToolButton({
-                    grid: this,
-                    service: Northwind.OrderService.baseUrl + '/ListExcel',
-                    onViewSubmit: function () { return _this.onViewSubmit(); },
-                    separator: true
-                }));
-                buttons.push(MovieTutorial.Common.PdfExportHelper.createToolButton({
-                    grid: this,
-                    onViewSubmit: function () { return _this.onViewSubmit(); }
-                }));
-                return buttons;
-            };
-            OrderGrid.prototype.set_shippingState = function (value) {
-                this.shippingStateFilter.value = value == null ? '' : value.toString();
-            };
-            OrderGrid = __decorate([
-                Serenity.Decorators.registerClass(),
-                Serenity.Decorators.filterable()
-            ], OrderGrid);
-            return OrderGrid;
-        }(Serenity.EntityGrid));
-        Northwind.OrderGrid = OrderGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var NoteDialog = (function (_super) {
-            __extends(NoteDialog, _super);
-            function NoteDialog() {
-                _super.call(this);
-                this.textEditor = new Serenity.HtmlNoteContentEditor(this.byId('Text'));
-            }
-            NoteDialog.prototype.getTemplate = function () {
-                return ("<form id='~_Form' class='s-Form'>" +
-                    "<textarea id='~_Text' class='required'></textarea>" +
-                    "</form>");
-            };
-            NoteDialog.prototype.getDialogOptions = function () {
-                var _this = this;
-                var opt = _super.prototype.getDialogOptions.call(this);
-                opt.buttons = [{
-                        text: Q.text('Dialogs.OkButton'),
-                        click: function () {
-                            if (!_this.validateForm()) {
-                                return;
-                            }
-                            _this.okClick && _this.okClick();
-                        }
-                    }, {
-                        text: Q.text('Dialogs.CancelButton'),
-                        click: function () { return _this.dialogClose(); }
-                    }
-                ];
-                return opt;
-            };
-            Object.defineProperty(NoteDialog.prototype, "text", {
-                get: function () {
-                    return this.textEditor.value;
-                },
-                set: function (value) {
-                    this.textEditor.value = value;
-                },
-                enumerable: true,
-                configurable: true
-            });
-            NoteDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], NoteDialog);
-            return NoteDialog;
-        }(Serenity.TemplatedDialog));
-        Northwind.NoteDialog = NoteDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var NotesEditor = (function (_super) {
-            __extends(NotesEditor, _super);
-            function NotesEditor(div) {
-                var _this = this;
-                _super.call(this, div);
-                new Serenity.Toolbar(this.byId('Toolbar'), {
-                    buttons: [{
-                            title: 'Add Note',
-                            cssClass: 'add-button',
-                            onClick: function (e) {
-                                e.preventDefault();
-                                _this.addClick();
-                            }
-                        }]
-                });
-            }
-            NotesEditor.prototype.getTemplate = function () {
-                return "<div><div id='~_Toolbar'></div><ul id='~_NoteList'></ul></div>";
-            };
-            NotesEditor.prototype.updateContent = function () {
-                var _this = this;
-                var noteList = this.byId('NoteList');
-                noteList.children().remove();
-                if (this.items) {
-                    var index = 0;
-                    for (var t1 = 0; t1 < this.items.length; t1++) {
-                        var item = this.items[t1];
-                        var li = $('<li/>');
-                        $('<div/>').addClass('note-text').html(Q.coalesce(item.Text, '')).appendTo(li);
-                        $('<a/>').attr('href', '#').addClass('note-date')
-                            .text(item.InsertUserDisplayName + ' - ' +
-                            Q.formatDate(Q.parseISODateTime(item.InsertDate), 'dd/MM/yyyy HH:mm'))
-                            .data('index', index).appendTo(li).click(function (e) { return _this.editClick(e); });
-                        $('<a/>').attr('href', '#').addClass('note-delete')
-                            .attr('title', 'delete note').data('index', index)
-                            .appendTo(li).click(function (e) { return _this.deleteClick(e); });
-                        li.appendTo(noteList);
-                        index++;
-                    }
-                }
-            };
-            NotesEditor.prototype.addClick = function () {
-                var _this = this;
-                var dlg = new Northwind.NoteDialog();
-                dlg.dialogTitle = 'Add Note';
-                dlg.okClick = function () {
-                    var text = Q.trimToNull(dlg.text);
-                    if (text == null) {
-                        return;
-                    }
-                    _this.items = _this.items || [];
-                    Q.insert(_this.items, 0, {
-                        Text: text,
-                        InsertUserDisplayName: MovieTutorial.Authorization.userDefinition.DisplayName,
-                        InsertDate: Q.formatISODateTimeUTC(new Date())
-                    });
-                    _this.updateContent();
-                    dlg.dialogClose();
-                    _this.set_isDirty(true);
-                    _this.onChange && _this.onChange();
-                };
-                dlg.dialogOpen();
-            };
-            NotesEditor.prototype.editClick = function (e) {
-                var _this = this;
-                e.preventDefault();
-                var index = $(e.target).data('index');
-                var old = this.items[index];
-                var dlg = new Northwind.NoteDialog();
-                dlg.dialogTitle = 'Edit Note';
-                dlg.text = old.Text;
-                dlg.okClick = function () {
-                    var text = Q.trimToNull(dlg.text);
-                    if (!text) {
-                        return;
-                    }
-                    _this.items[index].Text = text;
-                    _this.updateContent();
-                    dlg.dialogClose();
-                    _this.set_isDirty(true);
-                    _this.onChange && _this.onChange();
-                };
-                dlg.dialogOpen();
-            };
-            NotesEditor.prototype.deleteClick = function (e) {
-                var _this = this;
-                e.preventDefault();
-                var index = $(e.target).data('index');
-                Q.confirm('Delete this note?', function () {
-                    _this.items.splice(index, 1);
-                    _this.updateContent();
-                    _this.set_isDirty(true);
-                    _this.onChange && _this.onChange();
-                });
-            };
-            Object.defineProperty(NotesEditor.prototype, "value", {
-                get: function () {
-                    return this.items;
-                },
-                set: function (value) {
-                    this.items = value || [];
-                    this.set_isDirty(false);
-                    this.updateContent();
-                },
-                enumerable: true,
-                configurable: true
-            });
-            NotesEditor.prototype.getEditValue = function (prop, target) {
-                target[prop.name] = this.value;
-            };
-            NotesEditor.prototype.setEditValue = function (source, prop) {
-                this.value = source[prop.name] || [];
-            };
-            NotesEditor.prototype.get_isDirty = function () {
-                return this.isDirty;
-            };
-            NotesEditor.prototype.set_isDirty = function (value) {
-                this.isDirty = value;
-            };
-            NotesEditor = __decorate([
-                Serenity.Decorators.registerEditor([Serenity.IGetEditValue, Serenity.ISetEditValue]),
-                Serenity.Decorators.element("<div/>")
-            ], NotesEditor);
-            return NotesEditor;
-        }(Serenity.TemplatedWidget));
-        Northwind.NotesEditor = NotesEditor;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var EmployeeFormatter = (function () {
-            function EmployeeFormatter() {
-            }
-            EmployeeFormatter.prototype.format = function (ctx) {
-                var text = Q.htmlEncode(ctx.value);
-                if (!this.genderProperty) {
-                    return text;
-                }
-                var gender = ctx.item[this.genderProperty];
-                return "<span class='" + ((gender === Northwind.Gender.Female) ?
-                    'employee-symbol female' : 'employee-symbol male') +
-                    "'>" + text + '</span>';
-            };
-            EmployeeFormatter.prototype.initializeColumn = function (column) {
-                column.referencedFields = column.referencedFields || [];
-                if (this.genderProperty)
-                    column.referencedFields.push(this.genderProperty);
-            };
-            __decorate([
-                Serenity.Decorators.option()
-            ], EmployeeFormatter.prototype, "genderProperty", void 0);
-            EmployeeFormatter = __decorate([
-                Serenity.Decorators.registerFormatter([Serenity.ISlickFormatter, Serenity.IInitializeColumn])
-            ], EmployeeFormatter);
-            return EmployeeFormatter;
-        }());
-        Northwind.EmployeeFormatter = EmployeeFormatter;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerDialog = (function (_super) {
-            __extends(CustomerDialog, _super);
-            function CustomerDialog() {
-                var _this = this;
-                _super.call(this);
-                this.form = new Northwind.CustomerForm(this.idPrefix);
-                this.ordersGrid = new Northwind.CustomerOrdersGrid(this.byId('OrdersGrid'));
-                this.ordersGrid.element.flexHeightOnly(1);
-                this.byId('NoteList').closest('.field').hide().end().appendTo(this.byId('TabNotes'));
-                MovieTutorial.DialogUtils.pendingChangesConfirmation(this.element, function () { return _this.getSaveState() != _this.loadedState; });
-                this.tabs.bind('tabsactivate', function () { return _this.arrange(); });
-            }
-            CustomerDialog.prototype.getFormKey = function () { return Northwind.CustomerForm.formKey; };
-            CustomerDialog.prototype.getIdProperty = function () { return Northwind.CustomerRow.idProperty; };
-            CustomerDialog.prototype.getLocalTextPrefix = function () { return Northwind.CustomerRow.localTextPrefix; };
-            CustomerDialog.prototype.getNameProperty = function () { return Northwind.CustomerRow.nameProperty; };
-            CustomerDialog.prototype.getService = function () { return Northwind.CustomerService.baseUrl; };
-            CustomerDialog.prototype.getSaveState = function () {
-                try {
-                    return $.toJSON(this.getSaveEntity());
-                }
-                catch (e) {
-                    return null;
-                }
-            };
-            CustomerDialog.prototype.loadResponse = function (data) {
-                _super.prototype.loadResponse.call(this, data);
-                this.loadedState = this.getSaveState();
-            };
-            CustomerDialog.prototype.loadEntity = function (entity) {
-                _super.prototype.loadEntity.call(this, entity);
-                Serenity.TabsExtensions.setDisabled(this.tabs, 'Orders', this.isNewOrDeleted());
-                this.ordersGrid.customerID = entity.CustomerID;
-            };
-            CustomerDialog.prototype.onSaveSuccess = function (response) {
-                _super.prototype.onSaveSuccess.call(this, response);
-                Q.reloadLookup('Northwind.Customer');
-            };
-            CustomerDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], CustomerDialog);
-            return CustomerDialog;
-        }(Serenity.EntityDialog));
-        Northwind.CustomerDialog = CustomerDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerEditor = (function (_super) {
-            __extends(CustomerEditor, _super);
-            function CustomerEditor(hidden) {
-                _super.call(this, hidden);
-            }
-            CustomerEditor.prototype.getLookupKey = function () {
-                return 'Northwind.Customer';
-            };
-            CustomerEditor.prototype.getItemText = function (item, lookup) {
-                return _super.prototype.getItemText.call(this, item, lookup) + ' [' + item.CustomerID + ']';
-            };
-            CustomerEditor = __decorate([
+            MovieCastEditor = __decorate([
                 Serenity.Decorators.registerEditor()
-            ], CustomerEditor);
-            return CustomerEditor;
-        }(Serenity.LookupEditorBase));
-        Northwind.CustomerEditor = CustomerEditor;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+            ], MovieCastEditor);
+            return MovieCastEditor;
+        }(MovieTutorial.Common.GridEditorBase));
+        MovieDB.MovieCastEditor = MovieCastEditor;
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerGrid = (function (_super) {
-            __extends(CustomerGrid, _super);
-            function CustomerGrid(container) {
-                _super.call(this, container);
+    var MovieDB;
+    (function (MovieDB) {
+        var GenreListFormatter = (function () {
+            function GenreListFormatter() {
             }
-            CustomerGrid.prototype.getColumnsKey = function () { return "Northwind.Customer"; };
-            CustomerGrid.prototype.getDialogType = function () { return Northwind.CustomerDialog; };
-            CustomerGrid.prototype.getIdProperty = function () { return Northwind.CustomerRow.idProperty; };
-            CustomerGrid.prototype.getLocalTextPrefix = function () { return Northwind.CustomerRow.localTextPrefix; };
-            CustomerGrid.prototype.getService = function () { return Northwind.CustomerService.baseUrl; };
-            CustomerGrid.prototype.getButtons = function () {
-                var _this = this;
-                var buttons = _super.prototype.getButtons.call(this);
-                buttons.push(MovieTutorial.Common.ExcelExportHelper.createToolButton({
-                    grid: this,
-                    onViewSubmit: function () { return _this.onViewSubmit(); },
-                    service: 'Northwind/Customer/ListExcel',
-                    separator: true
-                }));
-                buttons.push(MovieTutorial.Common.PdfExportHelper.createToolButton({
-                    grid: this,
-                    onViewSubmit: function () { return _this.onViewSubmit(); }
-                }));
-                return buttons;
+            GenreListFormatter.prototype.format = function (ctx) {
+                var idList = ctx.value;
+                if (!idList || !idList.length)
+                    return "";
+                var byId = MovieDB.GenreRow.getLookup().itemById;
+                return idList.map(function (x) {
+                    var g = byId[x];
+                    if (!g)
+                        return x.toString();
+                    return Q.htmlEncode(g.Name);
+                }).join(", ");
             };
-            CustomerGrid = __decorate([
-                Serenity.Decorators.registerClass(),
-                Serenity.Decorators.filterable()
-            ], CustomerGrid);
-            return CustomerGrid;
-        }(Serenity.EntityGrid));
-        Northwind.CustomerGrid = CustomerGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../Order/OrderDialog.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerOrderDialog = (function (_super) {
-            __extends(CustomerOrderDialog, _super);
-            function CustomerOrderDialog() {
-                _super.call(this);
-            }
-            CustomerOrderDialog.prototype.updateInterface = function () {
-                _super.prototype.updateInterface.call(this);
-                Serenity.EditorUtils.setReadOnly(this.form.CustomerID, true);
-            };
-            CustomerOrderDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], CustomerOrderDialog);
-            return CustomerOrderDialog;
-        }(Northwind.OrderDialog));
-        Northwind.CustomerOrderDialog = CustomerOrderDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../Order/OrderGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerOrdersGrid = (function (_super) {
-            __extends(CustomerOrdersGrid, _super);
-            function CustomerOrdersGrid(container) {
-                _super.call(this, container);
-            }
-            CustomerOrdersGrid.prototype.getDialogType = function () { return Northwind.CustomerOrderDialog; };
-            CustomerOrdersGrid.prototype.getColumns = function () {
-                var fld = Northwind.OrderRow.Fields;
-                return _super.prototype.getColumns.call(this).filter(function (x) { return x.field !== fld.CustomerCompanyName; });
-            };
-            CustomerOrdersGrid.prototype.initEntityDialog = function (itemType, dialog) {
-                _super.prototype.initEntityDialog.call(this, itemType, dialog);
-                Serenity.SubDialogHelper.cascade(dialog, this.element.closest('.ui-dialog'));
-            };
-            CustomerOrdersGrid.prototype.addButtonClick = function () {
-                this.editItem({ CustomerID: this.customerID });
-            };
-            CustomerOrdersGrid.prototype.getInitialTitle = function () {
-                return null;
-            };
-            CustomerOrdersGrid.prototype.getGridCanLoad = function () {
-                return _super.prototype.getGridCanLoad.call(this) && !!this.customerID;
-            };
-            Object.defineProperty(CustomerOrdersGrid.prototype, "customerID", {
-                get: function () {
-                    return this._customerID;
-                },
-                set: function (value) {
-                    if (this._customerID !== value) {
-                        this._customerID = value;
-                        this.setEquality('CustomerID', value);
-                        this.refresh();
-                    }
-                },
-                enumerable: true,
-                configurable: true
-            });
-            CustomerOrdersGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], CustomerOrdersGrid);
-            return CustomerOrdersGrid;
-        }(Northwind.OrderGrid));
-        Northwind.CustomerOrdersGrid = CustomerOrdersGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CategoryDialog = (function (_super) {
-            __extends(CategoryDialog, _super);
-            function CategoryDialog() {
-                _super.apply(this, arguments);
-                this.form = new Northwind.CategoryForm(this.idPrefix);
-            }
-            CategoryDialog.prototype.getFormKey = function () { return Northwind.CategoryForm.formKey; };
-            CategoryDialog.prototype.getIdProperty = function () { return Northwind.CategoryRow.idProperty; };
-            CategoryDialog.prototype.getLocalTextPrefix = function () { return Northwind.CategoryRow.localTextPrefix; };
-            CategoryDialog.prototype.getNameProperty = function () { return Northwind.CategoryRow.nameProperty; };
-            CategoryDialog.prototype.getService = function () { return Northwind.CategoryService.baseUrl; };
-            CategoryDialog.prototype.getLanguages = function () {
-                return MovieTutorial.LanguageList.getValue();
-            };
-            CategoryDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], CategoryDialog);
-            return CategoryDialog;
-        }(Serenity.EntityDialog));
-        Northwind.CategoryDialog = CategoryDialog;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CategoryGrid = (function (_super) {
-            __extends(CategoryGrid, _super);
-            function CategoryGrid(container) {
-                _super.call(this, container);
-            }
-            CategoryGrid.prototype.getColumnsKey = function () { return "Northwind.Category"; };
-            CategoryGrid.prototype.getDialogType = function () { return Northwind.CategoryDialog; };
-            CategoryGrid.prototype.getIdProperty = function () { return Northwind.CategoryRow.idProperty; };
-            CategoryGrid.prototype.getLocalTextPrefix = function () { return Northwind.CategoryRow.localTextPrefix; };
-            CategoryGrid.prototype.getService = function () { return Northwind.CategoryService.baseUrl; };
-            CategoryGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], CategoryGrid);
-            return CategoryGrid;
-        }(Serenity.EntityGrid));
-        Northwind.CategoryGrid = CategoryGrid;
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+            GenreListFormatter = __decorate([
+                Serenity.Decorators.registerFormatter()
+            ], GenreListFormatter);
+            return GenreListFormatter;
+        }());
+        MovieDB.GenreListFormatter = GenreListFormatter;
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
@@ -2540,55 +1343,6 @@ var MovieTutorial;
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var BasicSamplesService;
-        (function (BasicSamplesService) {
-            BasicSamplesService.baseUrl = 'BasicSamples/BasicSamples';
-            var Methods;
-            (function (Methods) {
-            })(Methods = BasicSamplesService.Methods || (BasicSamplesService.Methods = {}));
-            ['OrdersByShipper', 'OrderBulkAction'].forEach(function (x) {
-                BasicSamplesService[x] = function (r, s, o) { return Q.serviceRequest(BasicSamplesService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = BasicSamplesService.baseUrl + '/' + x;
-            });
-        })(BasicSamplesService = BasicSamples.BasicSamplesService || (BasicSamples.BasicSamplesService = {}));
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var FilteredLookupInDetailForm = (function (_super) {
-            __extends(FilteredLookupInDetailForm, _super);
-            function FilteredLookupInDetailForm() {
-                _super.apply(this, arguments);
-            }
-            FilteredLookupInDetailForm.formKey = 'BasicSamples.FilteredLookupInDetail';
-            return FilteredLookupInDetailForm;
-        }(Serenity.PrefixedContext));
-        BasicSamples.FilteredLookupInDetailForm = FilteredLookupInDetailForm;
-        [['CustomerID', function () { return MovieTutorial.Northwind.CustomerEditor; }], ['OrderDate', function () { return Serenity.DateEditor; }], ['CategoryID', function () { return Serenity.LookupEditor; }], ['DetailList', function () { return BasicSamples.FilteredLookupDetailEditor; }]].forEach(function (x) { return Object.defineProperty(FilteredLookupInDetailForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var LookupFilterByMultipleForm = (function (_super) {
-            __extends(LookupFilterByMultipleForm, _super);
-            function LookupFilterByMultipleForm() {
-                _super.apply(this, arguments);
-            }
-            LookupFilterByMultipleForm.formKey = 'BasicSamples.LookupFilterByMultiple';
-            return LookupFilterByMultipleForm;
-        }(Serenity.PrefixedContext));
-        BasicSamples.LookupFilterByMultipleForm = LookupFilterByMultipleForm;
-        [['ProductName', function () { return Serenity.StringEditor; }], ['ProductImage', function () { return Serenity.ImageUploadEditor; }], ['Discontinued', function () { return Serenity.BooleanEditor; }], ['SupplierID', function () { return Serenity.LookupEditor; }], ['CategoryID', function () { return BasicSamples.ProduceSeafoodCategoryEditor; }], ['QuantityPerUnit', function () { return Serenity.StringEditor; }], ['UnitPrice', function () { return Serenity.DecimalEditor; }], ['UnitsInStock', function () { return Serenity.IntegerEditor; }], ['UnitsOnOrder', function () { return Serenity.IntegerEditor; }], ['ReorderLevel', function () { return Serenity.IntegerEditor; }]].forEach(function (x) { return Object.defineProperty(LookupFilterByMultipleForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
     var Common;
     (function (Common) {
         var UserPreferenceRow;
@@ -2704,6 +1458,18 @@ var MovieTutorial;
 (function (MovieTutorial) {
     var MovieDB;
     (function (MovieDB) {
+        (function (Gender) {
+            Gender[Gender["Male"] = 1] = "Male";
+            Gender[Gender["Female"] = 2] = "Female";
+        })(MovieDB.Gender || (MovieDB.Gender = {}));
+        var Gender = MovieDB.Gender;
+        Serenity.Decorators.registerEnum(Gender, 'MovieDB.Gender');
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var MovieDB;
+    (function (MovieDB) {
         var GenreForm = (function (_super) {
             __extends(GenreForm, _super);
             function GenreForm() {
@@ -2758,6 +1524,55 @@ var MovieTutorial;
 (function (MovieTutorial) {
     var MovieDB;
     (function (MovieDB) {
+        var MovieCastForm = (function (_super) {
+            __extends(MovieCastForm, _super);
+            function MovieCastForm() {
+                _super.apply(this, arguments);
+            }
+            MovieCastForm.formKey = 'MovieDB.MovieCast';
+            return MovieCastForm;
+        }(Serenity.PrefixedContext));
+        MovieDB.MovieCastForm = MovieCastForm;
+        [['PersonId', function () { return Serenity.LookupEditor; }], ['Character', function () { return Serenity.StringEditor; }]].forEach(function (x) { return Object.defineProperty(MovieCastForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var MovieDB;
+    (function (MovieDB) {
+        var MovieCastRow;
+        (function (MovieCastRow) {
+            MovieCastRow.idProperty = 'MovieCastId';
+            MovieCastRow.nameProperty = 'Character';
+            MovieCastRow.localTextPrefix = 'MovieDB.MovieCast';
+            var Fields;
+            (function (Fields) {
+            })(Fields = MovieCastRow.Fields || (MovieCastRow.Fields = {}));
+            ['MovieCastId', 'MovieId', 'PersonId', 'Character', 'MovieTitle', 'MovieDescription', 'MovieStoryline', 'MovieYear', 'MovieReleaseDate', 'MovieRuntime', 'MovieKind', 'PersonFirstname', 'PersonLastname', 'PersonFullname', 'PersonBirthDate', 'PersonBirthPlace', 'PersonGender', 'PersonHeight'].forEach(function (x) { return Fields[x] = x; });
+        })(MovieCastRow = MovieDB.MovieCastRow || (MovieDB.MovieCastRow = {}));
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var MovieDB;
+    (function (MovieDB) {
+        var MovieCastService;
+        (function (MovieCastService) {
+            MovieCastService.baseUrl = 'MovieDB/MovieCast';
+            var Methods;
+            (function (Methods) {
+            })(Methods = MovieCastService.Methods || (MovieCastService.Methods = {}));
+            ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
+                MovieCastService[x] = function (r, s, o) { return Q.serviceRequest(MovieCastService.baseUrl + '/' + x, r, s, o); };
+                Methods[x] = MovieCastService.baseUrl + '/' + x;
+            });
+        })(MovieCastService = MovieDB.MovieCastService || (MovieDB.MovieCastService = {}));
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var MovieDB;
+    (function (MovieDB) {
         var MovieForm = (function (_super) {
             __extends(MovieForm, _super);
             function MovieForm() {
@@ -2767,7 +1582,22 @@ var MovieTutorial;
             return MovieForm;
         }(Serenity.PrefixedContext));
         MovieDB.MovieForm = MovieForm;
-        [['Title', function () { return Serenity.StringEditor; }], ['Description', function () { return Serenity.TextAreaEditor; }], ['Storyline', function () { return Serenity.TextAreaEditor; }], ['Year', function () { return Serenity.IntegerEditor; }], ['ReleaseDate', function () { return Serenity.DateEditor; }], ['GenreId', function () { return Serenity.LookupEditor; }], ['Kind', function () { return Serenity.EnumEditor; }], ['Runtime', function () { return Serenity.IntegerEditor; }]].forEach(function (x) { return Object.defineProperty(MovieForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
+        [['Title', function () { return Serenity.StringEditor; }], ['Description', function () { return Serenity.TextAreaEditor; }], ['CastList', function () { return MovieDB.MovieCastEditor; }], ['PrimaryImage', function () { return Serenity.ImageUploadEditor; }], ['GalleryImages', function () { return Serenity.MultipleImageUploadEditor; }], ['Storyline', function () { return Serenity.TextAreaEditor; }], ['Year', function () { return Serenity.IntegerEditor; }], ['ReleaseDate', function () { return Serenity.DateEditor; }], ['GenreList', function () { return Serenity.LookupEditor; }], ['Kind', function () { return Serenity.EnumEditor; }], ['Runtime', function () { return Serenity.IntegerEditor; }]].forEach(function (x) { return Object.defineProperty(MovieForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var MovieDB;
+    (function (MovieDB) {
+        var MovieGenresRow;
+        (function (MovieGenresRow) {
+            MovieGenresRow.idProperty = 'MovieGenreId';
+            MovieGenresRow.localTextPrefix = 'MovieDB.MovieGenres';
+            var Fields;
+            (function (Fields) {
+            })(Fields = MovieGenresRow.Fields || (MovieGenresRow.Fields = {}));
+            ['MovieGenreId', 'MovieId', 'GenreId', 'MovieTitle', 'MovieDescription', 'MovieStoryline', 'MovieYear', 'MovieReleaseDate', 'MovieRuntime', 'MovieKind', 'GenreName'].forEach(function (x) { return Fields[x] = x; });
+        })(MovieGenresRow = MovieDB.MovieGenresRow || (MovieDB.MovieGenresRow = {}));
     })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
@@ -2795,7 +1625,7 @@ var MovieTutorial;
             var Fields;
             (function (Fields) {
             })(Fields = MovieRow.Fields || (MovieRow.Fields = {}));
-            ['MovieId', 'Title', 'Description', 'Storyline', 'Year', 'ReleaseDate', 'Runtime', 'Kind', 'GenreId', 'GenreName'].forEach(function (x) { return Fields[x] = x; });
+            ['MovieId', 'Title', 'Description', 'Storyline', 'Year', 'ReleaseDate', 'Runtime', 'Kind', 'GenreList', 'CastList', 'PrimaryImage', 'GalleryImages'].forEach(function (x) { return Fields[x] = x; });
         })(MovieRow = MovieDB.MovieRow || (MovieDB.MovieRow = {}));
     })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
@@ -2818,720 +1648,155 @@ var MovieTutorial;
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CategoryForm = (function (_super) {
-            __extends(CategoryForm, _super);
-            function CategoryForm() {
+    var MovieDB;
+    (function (MovieDB) {
+        var PersonForm = (function (_super) {
+            __extends(PersonForm, _super);
+            function PersonForm() {
                 _super.apply(this, arguments);
             }
-            CategoryForm.formKey = 'Northwind.Category';
-            return CategoryForm;
+            PersonForm.formKey = 'MovieDB.Person';
+            return PersonForm;
         }(Serenity.PrefixedContext));
-        Northwind.CategoryForm = CategoryForm;
-        [['CategoryName', function () { return Serenity.StringEditor; }], ['Description', function () { return Serenity.StringEditor; }]].forEach(function (x) { return Object.defineProperty(CategoryForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        MovieDB.PersonForm = PersonForm;
+        [['Firstname', function () { return Serenity.StringEditor; }], ['Lastname', function () { return Serenity.StringEditor; }], ['PrimaryImage', function () { return Serenity.ImageUploadEditor; }], ['GalleryImages', function () { return Serenity.MultipleImageUploadEditor; }], ['BirthDate', function () { return Serenity.DateEditor; }], ['BirthPlace', function () { return Serenity.StringEditor; }], ['Gender', function () { return Serenity.EnumEditor; }], ['Height', function () { return Serenity.IntegerEditor; }]].forEach(function (x) { return Object.defineProperty(PersonForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CategoryLangRow;
-        (function (CategoryLangRow) {
-            CategoryLangRow.idProperty = 'Id';
-            CategoryLangRow.nameProperty = 'CategoryName';
-            CategoryLangRow.localTextPrefix = 'Northwind.CategoryLang';
+    var MovieDB;
+    (function (MovieDB) {
+        var PersonRow;
+        (function (PersonRow) {
+            PersonRow.idProperty = 'PersonId';
+            PersonRow.nameProperty = 'Fullname';
+            PersonRow.localTextPrefix = 'MovieDB.Person';
+            PersonRow.lookupKey = 'MovieDB.Person';
+            function getLookup() {
+                return Q.getLookup('MovieDB.Person');
+            }
+            PersonRow.getLookup = getLookup;
             var Fields;
             (function (Fields) {
-            })(Fields = CategoryLangRow.Fields || (CategoryLangRow.Fields = {}));
-            ['Id', 'CategoryId', 'LanguageId', 'CategoryName', 'Description'].forEach(function (x) { return Fields[x] = x; });
-        })(CategoryLangRow = Northwind.CategoryLangRow || (Northwind.CategoryLangRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+            })(Fields = PersonRow.Fields || (PersonRow.Fields = {}));
+            ['PersonId', 'Firstname', 'Lastname', 'Fullname', 'BirthDate', 'BirthPlace', 'Gender', 'Height', 'PrimaryImage', 'GalleryImages'].forEach(function (x) { return Fields[x] = x; });
+        })(PersonRow = MovieDB.PersonRow || (MovieDB.PersonRow = {}));
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CategoryLangService;
-        (function (CategoryLangService) {
-            CategoryLangService.baseUrl = 'Northwind/CategoryLang';
+    var MovieDB;
+    (function (MovieDB) {
+        var PersonService;
+        (function (PersonService) {
+            PersonService.baseUrl = 'MovieDB/Person';
             var Methods;
             (function (Methods) {
-            })(Methods = CategoryLangService.Methods || (CategoryLangService.Methods = {}));
+            })(Methods = PersonService.Methods || (PersonService.Methods = {}));
             ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
-                CategoryLangService[x] = function (r, s, o) { return Q.serviceRequest(CategoryLangService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = CategoryLangService.baseUrl + '/' + x;
+                PersonService[x] = function (r, s, o) { return Q.serviceRequest(PersonService.baseUrl + '/' + x, r, s, o); };
+                Methods[x] = PersonService.baseUrl + '/' + x;
             });
-        })(CategoryLangService = Northwind.CategoryLangService || (Northwind.CategoryLangService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        })(PersonService = MovieDB.PersonService || (MovieDB.PersonService = {}));
+    })(MovieDB = MovieTutorial.MovieDB || (MovieTutorial.MovieDB = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CategoryRow;
-        (function (CategoryRow) {
-            CategoryRow.idProperty = 'CategoryID';
-            CategoryRow.nameProperty = 'CategoryName';
-            CategoryRow.localTextPrefix = 'Northwind.Category';
-            CategoryRow.lookupKey = 'Northwind.Category';
-            function getLookup() {
-                return Q.getLookup('Northwind.Category');
-            }
-            CategoryRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = CategoryRow.Fields || (CategoryRow.Fields = {}));
-            ['CategoryID', 'CategoryName', 'Description', 'Picture'].forEach(function (x) { return Fields[x] = x; });
-        })(CategoryRow = Northwind.CategoryRow || (Northwind.CategoryRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CategoryService;
-        (function (CategoryService) {
-            CategoryService.baseUrl = 'Northwind/Category';
-            var Methods;
-            (function (Methods) {
-            })(Methods = CategoryService.Methods || (CategoryService.Methods = {}));
-            ['Create', 'Update', 'Delete', 'RetrieveLocalization', 'Retrieve', 'List'].forEach(function (x) {
-                CategoryService[x] = function (r, s, o) { return Q.serviceRequest(CategoryService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = CategoryService.baseUrl + '/' + x;
-            });
-        })(CategoryService = Northwind.CategoryService || (Northwind.CategoryService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerCustomerDemoRow;
-        (function (CustomerCustomerDemoRow) {
-            CustomerCustomerDemoRow.idProperty = 'ID';
-            CustomerCustomerDemoRow.nameProperty = 'CustomerID';
-            CustomerCustomerDemoRow.localTextPrefix = 'Northwind.CustomerCustomerDemo';
-            var Fields;
-            (function (Fields) {
-            })(Fields = CustomerCustomerDemoRow.Fields || (CustomerCustomerDemoRow.Fields = {}));
-            ['ID', 'CustomerID', 'CustomerTypeID', 'CustomerCompanyName', 'CustomerContactName', 'CustomerContactTitle', 'CustomerAddress', 'CustomerCity', 'CustomerRegion', 'CustomerPostalCode', 'CustomerCountry', 'CustomerPhone', 'CustomerFax', 'CustomerTypeCustomerDesc'].forEach(function (x) { return Fields[x] = x; });
-        })(CustomerCustomerDemoRow = Northwind.CustomerCustomerDemoRow || (Northwind.CustomerCustomerDemoRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerDemographicRow;
-        (function (CustomerDemographicRow) {
-            CustomerDemographicRow.idProperty = 'ID';
-            CustomerDemographicRow.nameProperty = 'CustomerTypeID';
-            CustomerDemographicRow.localTextPrefix = 'Northwind.CustomerDemographic';
-            var Fields;
-            (function (Fields) {
-            })(Fields = CustomerDemographicRow.Fields || (CustomerDemographicRow.Fields = {}));
-            ['ID', 'CustomerTypeID', 'CustomerDesc'].forEach(function (x) { return Fields[x] = x; });
-        })(CustomerDemographicRow = Northwind.CustomerDemographicRow || (Northwind.CustomerDemographicRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerForm = (function (_super) {
-            __extends(CustomerForm, _super);
-            function CustomerForm() {
+    var NewsManagement;
+    (function (NewsManagement) {
+        var TblPrivateNewsForm = (function (_super) {
+            __extends(TblPrivateNewsForm, _super);
+            function TblPrivateNewsForm() {
                 _super.apply(this, arguments);
             }
-            CustomerForm.formKey = 'Northwind.Customer';
-            return CustomerForm;
+            TblPrivateNewsForm.formKey = 'NewsManagement.TblPrivateNews';
+            return TblPrivateNewsForm;
         }(Serenity.PrefixedContext));
-        Northwind.CustomerForm = CustomerForm;
-        [['CustomerID', function () { return Serenity.StringEditor; }], ['CompanyName', function () { return Serenity.StringEditor; }], ['ContactName', function () { return Serenity.StringEditor; }], ['ContactTitle', function () { return Serenity.StringEditor; }], ['Representatives', function () { return Serenity.LookupEditor; }], ['Address', function () { return Serenity.StringEditor; }], ['City', function () { return Serenity.StringEditor; }], ['Region', function () { return Serenity.StringEditor; }], ['PostalCode', function () { return Serenity.StringEditor; }], ['Country', function () { return Serenity.StringEditor; }], ['Phone', function () { return Serenity.StringEditor; }], ['Fax', function () { return Serenity.StringEditor; }], ['NoteList', function () { return Northwind.NotesEditor; }]].forEach(function (x) { return Object.defineProperty(CustomerForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        NewsManagement.TblPrivateNewsForm = TblPrivateNewsForm;
+        [['Title', function () { return Serenity.StringEditor; }], ['NewsContent', function () { return Serenity.StringEditor; }], ['Address', function () { return Serenity.StringEditor; }], ['Dientich', function () { return Serenity.StringEditor; }], ['Price', function () { return Serenity.StringEditor; }], ['PhoneNumber', function () { return Serenity.StringEditor; }], ['MenuId', function () { return Serenity.IntegerEditor; }], ['TinhThanhId', function () { return Serenity.IntegerEditor; }], ['QuanHuyenId', function () { return Serenity.IntegerEditor; }], ['UserId', function () { return Serenity.IntegerEditor; }], ['OrgPrice', function () { return Serenity.DecimalEditor; }], ['Status', function () { return Serenity.IntegerEditor; }], ['CreateDate', function () { return Serenity.DateEditor; }], ['Active', function () { return Serenity.IntegerEditor; }], ['Reup', function () { return Serenity.BooleanEditor; }]].forEach(function (x) { return Object.defineProperty(TblPrivateNewsForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
+    })(NewsManagement = MovieTutorial.NewsManagement || (MovieTutorial.NewsManagement = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerRepresentativesRow;
-        (function (CustomerRepresentativesRow) {
-            CustomerRepresentativesRow.idProperty = 'RepresentativeId';
-            CustomerRepresentativesRow.localTextPrefix = 'CustomerRepresentatives';
+    var NewsManagement;
+    (function (NewsManagement) {
+        var TblPrivateNewsRow;
+        (function (TblPrivateNewsRow) {
+            TblPrivateNewsRow.idProperty = 'Id';
+            TblPrivateNewsRow.nameProperty = 'Title';
+            TblPrivateNewsRow.localTextPrefix = 'NewsManagement.TblPrivateNews';
             var Fields;
             (function (Fields) {
-            })(Fields = CustomerRepresentativesRow.Fields || (CustomerRepresentativesRow.Fields = {}));
-            ['RepresentativeId', 'CustomerId', 'EmployeeId'].forEach(function (x) { return Fields[x] = x; });
-        })(CustomerRepresentativesRow = Northwind.CustomerRepresentativesRow || (Northwind.CustomerRepresentativesRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+            })(Fields = TblPrivateNewsRow.Fields || (TblPrivateNewsRow.Fields = {}));
+            ['Id', 'Title', 'NewsContent', 'Address', 'Dientich', 'Price', 'PhoneNumber', 'MenuId', 'TinhThanhId', 'QuanHuyenId', 'UserId', 'OrgPrice', 'Status', 'CreateDate', 'Active', 'Reup'].forEach(function (x) { return Fields[x] = x; });
+        })(TblPrivateNewsRow = NewsManagement.TblPrivateNewsRow || (NewsManagement.TblPrivateNewsRow = {}));
+    })(NewsManagement = MovieTutorial.NewsManagement || (MovieTutorial.NewsManagement = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerRow;
-        (function (CustomerRow) {
-            CustomerRow.idProperty = 'ID';
-            CustomerRow.nameProperty = 'CompanyName';
-            CustomerRow.localTextPrefix = 'Northwind.Customer';
-            CustomerRow.lookupKey = 'Northwind.Customer';
-            function getLookup() {
-                return Q.getLookup('Northwind.Customer');
-            }
-            CustomerRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = CustomerRow.Fields || (CustomerRow.Fields = {}));
-            ['ID', 'CustomerID', 'CompanyName', 'ContactName', 'ContactTitle', 'Address', 'City', 'Region', 'PostalCode', 'Country', 'Phone', 'Fax', 'NoteList', 'Representatives'].forEach(function (x) { return Fields[x] = x; });
-        })(CustomerRow = Northwind.CustomerRow || (Northwind.CustomerRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var CustomerService;
-        (function (CustomerService) {
-            CustomerService.baseUrl = 'Northwind/Customer';
+    var NewsManagement;
+    (function (NewsManagement) {
+        var TblPrivateNewsService;
+        (function (TblPrivateNewsService) {
+            TblPrivateNewsService.baseUrl = 'NewsManagement/TblPrivateNews';
             var Methods;
             (function (Methods) {
-            })(Methods = CustomerService.Methods || (CustomerService.Methods = {}));
+            })(Methods = TblPrivateNewsService.Methods || (TblPrivateNewsService.Methods = {}));
             ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
-                CustomerService[x] = function (r, s, o) { return Q.serviceRequest(CustomerService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = CustomerService.baseUrl + '/' + x;
+                TblPrivateNewsService[x] = function (r, s, o) { return Q.serviceRequest(TblPrivateNewsService.baseUrl + '/' + x, r, s, o); };
+                Methods[x] = TblPrivateNewsService.baseUrl + '/' + x;
             });
-        })(CustomerService = Northwind.CustomerService || (Northwind.CustomerService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        })(TblPrivateNewsService = NewsManagement.TblPrivateNewsService || (NewsManagement.TblPrivateNewsService = {}));
+    })(NewsManagement = MovieTutorial.NewsManagement || (MovieTutorial.NewsManagement = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var EmployeeRow;
-        (function (EmployeeRow) {
-            EmployeeRow.idProperty = 'EmployeeID';
-            EmployeeRow.nameProperty = 'FullName';
-            EmployeeRow.localTextPrefix = 'Northwind.Employee';
-            EmployeeRow.lookupKey = 'Northwind.Employee';
-            function getLookup() {
-                return Q.getLookup('Northwind.Employee');
-            }
-            EmployeeRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = EmployeeRow.Fields || (EmployeeRow.Fields = {}));
-            ['EmployeeID', 'LastName', 'FirstName', 'FullName', 'Title', 'TitleOfCourtesy', 'BirthDate', 'HireDate', 'Address', 'City', 'Region', 'PostalCode', 'Country', 'HomePhone', 'Extension', 'Photo', 'Notes', 'ReportsTo', 'PhotoPath', 'ReportsToFullName', 'ReportsToLastName', 'ReportsToFirstName', 'ReportsToTitle', 'ReportsToTitleOfCourtesy', 'ReportsToBirthDate', 'ReportsToHireDate', 'ReportsToAddress', 'ReportsToCity', 'ReportsToRegion', 'ReportsToPostalCode', 'ReportsToCountry', 'ReportsToHomePhone', 'ReportsToExtension', 'ReportsToPhoto', 'ReportsToNotes', 'ReportsToReportsTo', 'ReportsToPhotoPath', 'Gender'].forEach(function (x) { return Fields[x] = x; });
-        })(EmployeeRow = Northwind.EmployeeRow || (Northwind.EmployeeRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var EmployeeTerritoryRow;
-        (function (EmployeeTerritoryRow) {
-            EmployeeTerritoryRow.idProperty = 'EmployeeID';
-            EmployeeTerritoryRow.nameProperty = 'TerritoryID';
-            EmployeeTerritoryRow.localTextPrefix = 'Northwind.EmployeeTerritory';
-            var Fields;
-            (function (Fields) {
-            })(Fields = EmployeeTerritoryRow.Fields || (EmployeeTerritoryRow.Fields = {}));
-            ['EmployeeID', 'TerritoryID', 'EmployeeLastName', 'EmployeeFirstName', 'EmployeeTitle', 'EmployeeTitleOfCourtesy', 'EmployeeBirthDate', 'EmployeeHireDate', 'EmployeeAddress', 'EmployeeCity', 'EmployeeRegion', 'EmployeePostalCode', 'EmployeeCountry', 'EmployeeHomePhone', 'EmployeeExtension', 'EmployeePhoto', 'EmployeeNotes', 'EmployeeReportsTo', 'EmployeePhotoPath', 'TerritoryTerritoryDescription', 'TerritoryRegionID'].forEach(function (x) { return Fields[x] = x; });
-        })(EmployeeTerritoryRow = Northwind.EmployeeTerritoryRow || (Northwind.EmployeeTerritoryRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        (function (Gender) {
-            Gender[Gender["Male"] = 1] = "Male";
-            Gender[Gender["Female"] = 2] = "Female";
-        })(Northwind.Gender || (Northwind.Gender = {}));
-        var Gender = Northwind.Gender;
-        Serenity.Decorators.registerEnum(Gender, 'MovieTutorial.Northwind.Entities.Gender');
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var NoteRow;
-        (function (NoteRow) {
-            NoteRow.idProperty = 'NoteId';
-            NoteRow.nameProperty = 'EntityType';
-            NoteRow.localTextPrefix = 'Northwind.Note';
-            var Fields;
-            (function (Fields) {
-            })(Fields = NoteRow.Fields || (NoteRow.Fields = {}));
-            ['NoteId', 'EntityType', 'EntityId', 'Text', 'InsertUserId', 'InsertDate', 'InsertUserDisplayName'].forEach(function (x) { return Fields[x] = x; });
-        })(NoteRow = Northwind.NoteRow || (Northwind.NoteRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderDetailForm = (function (_super) {
-            __extends(OrderDetailForm, _super);
-            function OrderDetailForm() {
+    var PrivateNews;
+    (function (PrivateNews) {
+        var TblPrivateNewsForm = (function (_super) {
+            __extends(TblPrivateNewsForm, _super);
+            function TblPrivateNewsForm() {
                 _super.apply(this, arguments);
             }
-            OrderDetailForm.formKey = 'Northwind.OrderDetail';
-            return OrderDetailForm;
+            TblPrivateNewsForm.formKey = 'PrivateNews.TblPrivateNews';
+            return TblPrivateNewsForm;
         }(Serenity.PrefixedContext));
-        Northwind.OrderDetailForm = OrderDetailForm;
-        [['ProductID', function () { return Serenity.LookupEditor; }], ['UnitPrice', function () { return Serenity.DecimalEditor; }], ['Quantity', function () { return Serenity.IntegerEditor; }], ['Discount', function () { return Serenity.DecimalEditor; }]].forEach(function (x) { return Object.defineProperty(OrderDetailForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        PrivateNews.TblPrivateNewsForm = TblPrivateNewsForm;
+        [['Title', function () { return Serenity.StringEditor; }], ['NewsContent', function () { return Serenity.StringEditor; }], ['Address', function () { return Serenity.StringEditor; }], ['Dientich', function () { return Serenity.StringEditor; }], ['Price', function () { return Serenity.StringEditor; }], ['PhoneNumber', function () { return Serenity.StringEditor; }], ['MenuId', function () { return Serenity.IntegerEditor; }], ['TinhThanhId', function () { return Serenity.IntegerEditor; }], ['QuanHuyenId', function () { return Serenity.IntegerEditor; }], ['UserId', function () { return Serenity.IntegerEditor; }], ['OrgPrice', function () { return Serenity.DecimalEditor; }], ['Status', function () { return Serenity.IntegerEditor; }], ['CreateDate', function () { return Serenity.DateEditor; }], ['Active', function () { return Serenity.IntegerEditor; }]].forEach(function (x) { return Object.defineProperty(TblPrivateNewsForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
+    })(PrivateNews = MovieTutorial.PrivateNews || (MovieTutorial.PrivateNews = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderDetailRow;
-        (function (OrderDetailRow) {
-            OrderDetailRow.idProperty = 'DetailID';
-            OrderDetailRow.localTextPrefix = 'Northwind.OrderDetail';
+    var PrivateNews;
+    (function (PrivateNews) {
+        var TblPrivateNewsRow;
+        (function (TblPrivateNewsRow) {
+            TblPrivateNewsRow.idProperty = 'Id';
+            TblPrivateNewsRow.nameProperty = 'Title';
+            TblPrivateNewsRow.localTextPrefix = 'PrivateNews.TblPrivateNews';
             var Fields;
             (function (Fields) {
-            })(Fields = OrderDetailRow.Fields || (OrderDetailRow.Fields = {}));
-            ['DetailID', 'OrderID', 'ProductID', 'UnitPrice', 'Quantity', 'Discount', 'OrderCustomerID', 'OrderEmployeeID', 'OrderDate', 'OrderShippedDate', 'OrderShipVia', 'OrderShipCity', 'OrderShipCountry', 'ProductName', 'ProductDiscontinued', 'ProductSupplierID', 'ProductQuantityPerUnit', 'ProductUnitPrice', 'LineTotal'].forEach(function (x) { return Fields[x] = x; });
-        })(OrderDetailRow = Northwind.OrderDetailRow || (Northwind.OrderDetailRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+            })(Fields = TblPrivateNewsRow.Fields || (TblPrivateNewsRow.Fields = {}));
+            ['Id', 'Title', 'NewsContent', 'Address', 'Dientich', 'Price', 'PhoneNumber', 'MenuId', 'TinhThanhId', 'QuanHuyenId', 'UserId', 'OrgPrice', 'Status', 'CreateDate', 'Active'].forEach(function (x) { return Fields[x] = x; });
+        })(TblPrivateNewsRow = PrivateNews.TblPrivateNewsRow || (PrivateNews.TblPrivateNewsRow = {}));
+    })(PrivateNews = MovieTutorial.PrivateNews || (MovieTutorial.PrivateNews = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderDetailService;
-        (function (OrderDetailService) {
-            OrderDetailService.baseUrl = 'Northwind/OrderDetail';
+    var PrivateNews;
+    (function (PrivateNews) {
+        var TblPrivateNewsService;
+        (function (TblPrivateNewsService) {
+            TblPrivateNewsService.baseUrl = 'PrivateNews/TblPrivateNews';
             var Methods;
             (function (Methods) {
-            })(Methods = OrderDetailService.Methods || (OrderDetailService.Methods = {}));
-            ['Retrieve', 'List'].forEach(function (x) {
-                OrderDetailService[x] = function (r, s, o) { return Q.serviceRequest(OrderDetailService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = OrderDetailService.baseUrl + '/' + x;
-            });
-        })(OrderDetailService = Northwind.OrderDetailService || (Northwind.OrderDetailService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderForm = (function (_super) {
-            __extends(OrderForm, _super);
-            function OrderForm() {
-                _super.apply(this, arguments);
-            }
-            OrderForm.formKey = 'Northwind.Order';
-            return OrderForm;
-        }(Serenity.PrefixedContext));
-        Northwind.OrderForm = OrderForm;
-        [['CustomerID', function () { return Northwind.CustomerEditor; }], ['OrderDate', function () { return Serenity.DateEditor; }], ['RequiredDate', function () { return Serenity.DateEditor; }], ['EmployeeID', function () { return Serenity.LookupEditor; }], ['DetailList', function () { return Northwind.OrderDetailsEditor; }], ['ShippedDate', function () { return Serenity.DateEditor; }], ['ShipVia', function () { return Serenity.LookupEditor; }], ['Freight', function () { return Serenity.DecimalEditor; }], ['ShipName', function () { return Serenity.StringEditor; }], ['ShipAddress', function () { return Serenity.StringEditor; }], ['ShipCity', function () { return Serenity.StringEditor; }], ['ShipRegion', function () { return Serenity.StringEditor; }], ['ShipPostalCode', function () { return Serenity.StringEditor; }], ['ShipCountry', function () { return Serenity.StringEditor; }]].forEach(function (x) { return Object.defineProperty(OrderForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderRow;
-        (function (OrderRow) {
-            OrderRow.idProperty = 'OrderID';
-            OrderRow.nameProperty = 'CustomerID';
-            OrderRow.localTextPrefix = 'Northwind.Order';
-            OrderRow.lookupKey = 'Northwind.OrderShipCity';
-            function getLookup() {
-                return Q.getLookup('Northwind.OrderShipCity');
-            }
-            OrderRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = OrderRow.Fields || (OrderRow.Fields = {}));
-            ['OrderID', 'CustomerID', 'EmployeeID', 'OrderDate', 'RequiredDate', 'ShippedDate', 'ShipVia', 'Freight', 'ShipName', 'ShipAddress', 'ShipCity', 'ShipRegion', 'ShipPostalCode', 'ShipCountry', 'CustomerCompanyName', 'CustomerContactName', 'CustomerContactTitle', 'CustomerCity', 'CustomerRegion', 'CustomerCountry', 'CustomerPhone', 'CustomerFax', 'EmployeeFullName', 'EmployeeGender', 'ShipViaCompanyName', 'ShipViaPhone', 'ShippingState', 'DetailList'].forEach(function (x) { return Fields[x] = x; });
-        })(OrderRow = Northwind.OrderRow || (Northwind.OrderRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var OrderService;
-        (function (OrderService) {
-            OrderService.baseUrl = 'Northwind/Order';
-            var Methods;
-            (function (Methods) {
-            })(Methods = OrderService.Methods || (OrderService.Methods = {}));
+            })(Methods = TblPrivateNewsService.Methods || (TblPrivateNewsService.Methods = {}));
             ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
-                OrderService[x] = function (r, s, o) { return Q.serviceRequest(OrderService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = OrderService.baseUrl + '/' + x;
+                TblPrivateNewsService[x] = function (r, s, o) { return Q.serviceRequest(TblPrivateNewsService.baseUrl + '/' + x, r, s, o); };
+                Methods[x] = TblPrivateNewsService.baseUrl + '/' + x;
             });
-        })(OrderService = Northwind.OrderService || (Northwind.OrderService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        (function (OrderShippingState) {
-            OrderShippingState[OrderShippingState["NotShipped"] = 0] = "NotShipped";
-            OrderShippingState[OrderShippingState["Shipped"] = 1] = "Shipped";
-        })(Northwind.OrderShippingState || (Northwind.OrderShippingState = {}));
-        var OrderShippingState = Northwind.OrderShippingState;
-        Serenity.Decorators.registerEnum(OrderShippingState, 'Northwind.OrderShippingState');
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ProductForm = (function (_super) {
-            __extends(ProductForm, _super);
-            function ProductForm() {
-                _super.apply(this, arguments);
-            }
-            ProductForm.formKey = 'Northwind.Product';
-            return ProductForm;
-        }(Serenity.PrefixedContext));
-        Northwind.ProductForm = ProductForm;
-        [['ProductName', function () { return Serenity.StringEditor; }], ['ProductImage', function () { return Serenity.ImageUploadEditor; }], ['Discontinued', function () { return Serenity.BooleanEditor; }], ['SupplierID', function () { return Serenity.LookupEditor; }], ['CategoryID', function () { return Serenity.LookupEditor; }], ['QuantityPerUnit', function () { return Serenity.StringEditor; }], ['UnitPrice', function () { return Serenity.DecimalEditor; }], ['UnitsInStock', function () { return Serenity.IntegerEditor; }], ['UnitsOnOrder', function () { return Serenity.IntegerEditor; }], ['ReorderLevel', function () { return Serenity.IntegerEditor; }]].forEach(function (x) { return Object.defineProperty(ProductForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ProductLangRow;
-        (function (ProductLangRow) {
-            ProductLangRow.idProperty = 'Id';
-            ProductLangRow.nameProperty = 'ProductName';
-            ProductLangRow.localTextPrefix = 'Northwind.ProductLang';
-            var Fields;
-            (function (Fields) {
-            })(Fields = ProductLangRow.Fields || (ProductLangRow.Fields = {}));
-            ['Id', 'ProductId', 'LanguageId', 'ProductName'].forEach(function (x) { return Fields[x] = x; });
-        })(ProductLangRow = Northwind.ProductLangRow || (Northwind.ProductLangRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ProductLangService;
-        (function (ProductLangService) {
-            ProductLangService.baseUrl = 'Northwind/ProductLang';
-            var Methods;
-            (function (Methods) {
-            })(Methods = ProductLangService.Methods || (ProductLangService.Methods = {}));
-            ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
-                ProductLangService[x] = function (r, s, o) { return Q.serviceRequest(ProductLangService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = ProductLangService.baseUrl + '/' + x;
-            });
-        })(ProductLangService = Northwind.ProductLangService || (Northwind.ProductLangService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ProductLogRow;
-        (function (ProductLogRow) {
-            ProductLogRow.idProperty = 'ProductLogID';
-            ProductLogRow.localTextPrefix = 'Northwind.ProductLog';
-            var Fields;
-            (function (Fields) {
-            })(Fields = ProductLogRow.Fields || (ProductLogRow.Fields = {}));
-            ['ProductLogID', 'OperationType', 'ChangingUserId', 'ValidFrom', 'ValidUntil', 'ProductID', 'ProductName', 'ProductImage', 'Discontinued', 'SupplierID', 'CategoryID', 'QuantityPerUnit', 'UnitPrice', 'UnitsInStock', 'UnitsOnOrder', 'ReorderLevel'].forEach(function (x) { return Fields[x] = x; });
-        })(ProductLogRow = Northwind.ProductLogRow || (Northwind.ProductLogRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ProductRow;
-        (function (ProductRow) {
-            ProductRow.idProperty = 'ProductID';
-            ProductRow.nameProperty = 'ProductName';
-            ProductRow.localTextPrefix = 'Northwind.Product';
-            ProductRow.lookupKey = 'Northwind.Product';
-            function getLookup() {
-                return Q.getLookup('Northwind.Product');
-            }
-            ProductRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = ProductRow.Fields || (ProductRow.Fields = {}));
-            ['ProductID', 'ProductName', 'ProductImage', 'Discontinued', 'SupplierID', 'CategoryID', 'QuantityPerUnit', 'UnitPrice', 'UnitsInStock', 'UnitsOnOrder', 'ReorderLevel', 'SupplierCompanyName', 'SupplierContactName', 'SupplierContactTitle', 'SupplierAddress', 'SupplierCity', 'SupplierRegion', 'SupplierPostalCode', 'SupplierCountry', 'SupplierPhone', 'SupplierFax', 'SupplierHomePage', 'CategoryName', 'CategoryDescription', 'CategoryPicture'].forEach(function (x) { return Fields[x] = x; });
-        })(ProductRow = Northwind.ProductRow || (Northwind.ProductRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ProductService;
-        (function (ProductService) {
-            ProductService.baseUrl = 'Northwind/Product';
-            var Methods;
-            (function (Methods) {
-            })(Methods = ProductService.Methods || (ProductService.Methods = {}));
-            ['Create', 'Update', 'Delete', 'Retrieve', 'RetrieveLocalization', 'List'].forEach(function (x) {
-                ProductService[x] = function (r, s, o) { return Q.serviceRequest(ProductService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = ProductService.baseUrl + '/' + x;
-            });
-        })(ProductService = Northwind.ProductService || (Northwind.ProductService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var RegionForm = (function (_super) {
-            __extends(RegionForm, _super);
-            function RegionForm() {
-                _super.apply(this, arguments);
-            }
-            RegionForm.formKey = 'Northwind.Region';
-            return RegionForm;
-        }(Serenity.PrefixedContext));
-        Northwind.RegionForm = RegionForm;
-        [['RegionID', function () { return Serenity.IntegerEditor; }], ['RegionDescription', function () { return Serenity.StringEditor; }]].forEach(function (x) { return Object.defineProperty(RegionForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var RegionRow;
-        (function (RegionRow) {
-            RegionRow.idProperty = 'RegionID';
-            RegionRow.nameProperty = 'RegionDescription';
-            RegionRow.localTextPrefix = 'Northwind.Region';
-            RegionRow.lookupKey = 'Northwind.Region';
-            function getLookup() {
-                return Q.getLookup('Northwind.Region');
-            }
-            RegionRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = RegionRow.Fields || (RegionRow.Fields = {}));
-            ['RegionID', 'RegionDescription'].forEach(function (x) { return Fields[x] = x; });
-        })(RegionRow = Northwind.RegionRow || (Northwind.RegionRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var RegionService;
-        (function (RegionService) {
-            RegionService.baseUrl = 'Northwind/Region';
-            var Methods;
-            (function (Methods) {
-            })(Methods = RegionService.Methods || (RegionService.Methods = {}));
-            ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
-                RegionService[x] = function (r, s, o) { return Q.serviceRequest(RegionService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = RegionService.baseUrl + '/' + x;
-            });
-        })(RegionService = Northwind.RegionService || (Northwind.RegionService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var SalesByCategoryRow;
-        (function (SalesByCategoryRow) {
-            SalesByCategoryRow.nameProperty = 'CategoryName';
-            SalesByCategoryRow.localTextPrefix = 'Northwind.SalesByCategory';
-            var Fields;
-            (function (Fields) {
-            })(Fields = SalesByCategoryRow.Fields || (SalesByCategoryRow.Fields = {}));
-            ['CategoryId', 'CategoryName', 'ProductName', 'ProductSales'].forEach(function (x) { return Fields[x] = x; });
-        })(SalesByCategoryRow = Northwind.SalesByCategoryRow || (Northwind.SalesByCategoryRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var SalesByCategoryService;
-        (function (SalesByCategoryService) {
-            SalesByCategoryService.baseUrl = 'Northwind/SalesByCategory';
-            var Methods;
-            (function (Methods) {
-            })(Methods = SalesByCategoryService.Methods || (SalesByCategoryService.Methods = {}));
-            ['List'].forEach(function (x) {
-                SalesByCategoryService[x] = function (r, s, o) { return Q.serviceRequest(SalesByCategoryService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = SalesByCategoryService.baseUrl + '/' + x;
-            });
-        })(SalesByCategoryService = Northwind.SalesByCategoryService || (Northwind.SalesByCategoryService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ShipperForm = (function (_super) {
-            __extends(ShipperForm, _super);
-            function ShipperForm() {
-                _super.apply(this, arguments);
-            }
-            ShipperForm.formKey = 'Northwind.Shipper';
-            return ShipperForm;
-        }(Serenity.PrefixedContext));
-        Northwind.ShipperForm = ShipperForm;
-        [['CompanyName', function () { return Serenity.StringEditor; }], ['Phone', function () { return Northwind.PhoneEditor; }]].forEach(function (x) { return Object.defineProperty(ShipperForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ShipperRow;
-        (function (ShipperRow) {
-            ShipperRow.idProperty = 'ShipperID';
-            ShipperRow.nameProperty = 'CompanyName';
-            ShipperRow.localTextPrefix = 'Northwind.Shipper';
-            ShipperRow.lookupKey = 'Northwind.Shipper';
-            function getLookup() {
-                return Q.getLookup('Northwind.Shipper');
-            }
-            ShipperRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = ShipperRow.Fields || (ShipperRow.Fields = {}));
-            ['ShipperID', 'CompanyName', 'Phone'].forEach(function (x) { return Fields[x] = x; });
-        })(ShipperRow = Northwind.ShipperRow || (Northwind.ShipperRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var ShipperService;
-        (function (ShipperService) {
-            ShipperService.baseUrl = 'Northwind/Shipper';
-            var Methods;
-            (function (Methods) {
-            })(Methods = ShipperService.Methods || (ShipperService.Methods = {}));
-            ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
-                ShipperService[x] = function (r, s, o) { return Q.serviceRequest(ShipperService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = ShipperService.baseUrl + '/' + x;
-            });
-        })(ShipperService = Northwind.ShipperService || (Northwind.ShipperService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var SupplierForm = (function (_super) {
-            __extends(SupplierForm, _super);
-            function SupplierForm() {
-                _super.apply(this, arguments);
-            }
-            SupplierForm.formKey = 'Northwind.Supplier';
-            return SupplierForm;
-        }(Serenity.PrefixedContext));
-        Northwind.SupplierForm = SupplierForm;
-        [['CompanyName', function () { return Serenity.StringEditor; }], ['ContactName', function () { return Serenity.StringEditor; }], ['ContactTitle', function () { return Serenity.StringEditor; }], ['Address', function () { return Serenity.StringEditor; }], ['Region', function () { return Serenity.StringEditor; }], ['PostalCode', function () { return Serenity.StringEditor; }], ['Country', function () { return Serenity.StringEditor; }], ['City', function () { return Serenity.StringEditor; }], ['Phone', function () { return Serenity.StringEditor; }], ['Fax', function () { return Serenity.StringEditor; }], ['HomePage', function () { return Serenity.StringEditor; }]].forEach(function (x) { return Object.defineProperty(SupplierForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var SupplierRow;
-        (function (SupplierRow) {
-            SupplierRow.idProperty = 'SupplierID';
-            SupplierRow.nameProperty = 'CompanyName';
-            SupplierRow.localTextPrefix = 'Northwind.Supplier';
-            SupplierRow.lookupKey = 'Northwind.Supplier';
-            function getLookup() {
-                return Q.getLookup('Northwind.Supplier');
-            }
-            SupplierRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = SupplierRow.Fields || (SupplierRow.Fields = {}));
-            ['SupplierID', 'CompanyName', 'ContactName', 'ContactTitle', 'Address', 'City', 'Region', 'PostalCode', 'Country', 'Phone', 'Fax', 'HomePage'].forEach(function (x) { return Fields[x] = x; });
-        })(SupplierRow = Northwind.SupplierRow || (Northwind.SupplierRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var SupplierService;
-        (function (SupplierService) {
-            SupplierService.baseUrl = 'Northwind/Supplier';
-            var Methods;
-            (function (Methods) {
-            })(Methods = SupplierService.Methods || (SupplierService.Methods = {}));
-            ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
-                SupplierService[x] = function (r, s, o) { return Q.serviceRequest(SupplierService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = SupplierService.baseUrl + '/' + x;
-            });
-        })(SupplierService = Northwind.SupplierService || (Northwind.SupplierService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var TerritoryForm = (function (_super) {
-            __extends(TerritoryForm, _super);
-            function TerritoryForm() {
-                _super.apply(this, arguments);
-            }
-            TerritoryForm.formKey = 'Northwind.Territory';
-            return TerritoryForm;
-        }(Serenity.PrefixedContext));
-        Northwind.TerritoryForm = TerritoryForm;
-        [['TerritoryID', function () { return Serenity.StringEditor; }], ['TerritoryDescription', function () { return Serenity.StringEditor; }], ['RegionID', function () { return Serenity.LookupEditor; }]].forEach(function (x) { return Object.defineProperty(TerritoryForm.prototype, x[0], { get: function () { return this.w(x[0], x[1]()); }, enumerable: true, configurable: true }); });
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var TerritoryRow;
-        (function (TerritoryRow) {
-            TerritoryRow.idProperty = 'ID';
-            TerritoryRow.nameProperty = 'TerritoryID';
-            TerritoryRow.localTextPrefix = 'Northwind.Territory';
-            TerritoryRow.lookupKey = 'Northwind.Territory';
-            function getLookup() {
-                return Q.getLookup('Northwind.Territory');
-            }
-            TerritoryRow.getLookup = getLookup;
-            var Fields;
-            (function (Fields) {
-            })(Fields = TerritoryRow.Fields || (TerritoryRow.Fields = {}));
-            ['ID', 'TerritoryID', 'TerritoryDescription', 'RegionID', 'RegionDescription'].forEach(function (x) { return Fields[x] = x; });
-        })(TerritoryRow = Northwind.TerritoryRow || (Northwind.TerritoryRow = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var Northwind;
-    (function (Northwind) {
-        var TerritoryService;
-        (function (TerritoryService) {
-            TerritoryService.baseUrl = 'Northwind/Territory';
-            var Methods;
-            (function (Methods) {
-            })(Methods = TerritoryService.Methods || (TerritoryService.Methods = {}));
-            ['Create', 'Update', 'Delete', 'Retrieve', 'List'].forEach(function (x) {
-                TerritoryService[x] = function (r, s, o) { return Q.serviceRequest(TerritoryService.baseUrl + '/' + x, r, s, o); };
-                Methods[x] = TerritoryService.baseUrl + '/' + x;
-            });
-        })(TerritoryService = Northwind.TerritoryService || (Northwind.TerritoryService = {}));
-    })(Northwind = MovieTutorial.Northwind || (MovieTutorial.Northwind = {}));
+        })(TblPrivateNewsService = PrivateNews.TblPrivateNewsService || (PrivateNews.TblPrivateNewsService = {}));
+    })(PrivateNews = MovieTutorial.PrivateNews || (MovieTutorial.PrivateNews = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
@@ -3612,6 +1877,162 @@ var MovieTutorial;
         return BasicProgressDialog;
     }(Serenity.TemplatedDialog));
     MovieTutorial.BasicProgressDialog = BasicProgressDialog;
+})(MovieTutorial || (MovieTutorial = {}));
+var MovieTutorial;
+(function (MovieTutorial) {
+    var Common;
+    (function (Common) {
+        var BulkServiceAction = (function () {
+            function BulkServiceAction() {
+            }
+            BulkServiceAction.prototype.createProgressDialog = function () {
+                this.progressDialog = new MovieTutorial.BasicProgressDialog();
+                this.progressDialog.dialogOpen();
+                this.progressDialog.max = this.keys.length;
+                this.progressDialog.value = 0;
+            };
+            BulkServiceAction.prototype.getConfirmationFormat = function () {
+                return Q.text('Site.BulkServiceAction.ConfirmationFormat');
+            };
+            BulkServiceAction.prototype.getConfirmationMessage = function (targetCount) {
+                return Q.format(this.getConfirmationFormat(), targetCount);
+            };
+            BulkServiceAction.prototype.confirm = function (targetCount, action) {
+                Q.confirm(this.getConfirmationMessage(targetCount), action);
+            };
+            BulkServiceAction.prototype.getNothingToProcessMessage = function () {
+                return Q.text('Site.BulkServiceAction.NothingToProcess');
+            };
+            BulkServiceAction.prototype.nothingToProcess = function () {
+                Q.notifyError(this.getNothingToProcessMessage());
+            };
+            BulkServiceAction.prototype.getParallelRequests = function () {
+                return 1;
+            };
+            BulkServiceAction.prototype.getBatchSize = function () {
+                return 1;
+            };
+            BulkServiceAction.prototype.startParallelExecution = function () {
+                this.createProgressDialog();
+                this.successCount = 0;
+                this.errorCount = 0;
+                this.pendingRequests = 0;
+                this.completedRequests = 0;
+                this.errorCount = 0;
+                this.errorByKey = {};
+                this.queue = this.keys.slice();
+                this.queueIndex = 0;
+                var parallelRequests = this.getParallelRequests();
+                while (parallelRequests-- > 0) {
+                    this.executeNextBatch();
+                }
+            };
+            BulkServiceAction.prototype.serviceCallCleanup = function () {
+                this.pendingRequests--;
+                this.completedRequests++;
+                var title = Q.text((this.progressDialog.cancelled ?
+                    'Site.BasicProgressDialog.CancelTitle' : 'Site.BasicProgressDialog.PleaseWait'));
+                title += ' (';
+                if (this.successCount > 0) {
+                    title += Q.format(Q.text('Site.BulkServiceAction.SuccessCount'), this.successCount);
+                }
+                if (this.errorCount > 0) {
+                    if (this.successCount > 0) {
+                        title += ', ';
+                    }
+                    title += Q.format(Q.text('Site.BulkServiceAction.ErrorCount'), this.errorCount);
+                }
+                this.progressDialog.title = title + ')';
+                this.progressDialog.value = this.successCount + this.errorCount;
+                if (!this.progressDialog.cancelled && this.progressDialog.value < this.keys.length) {
+                    this.executeNextBatch();
+                }
+                else if (this.pendingRequests === 0) {
+                    this.progressDialog.dialogClose();
+                    this.showResults();
+                    if (this.done) {
+                        this.done();
+                        this.done = null;
+                    }
+                }
+            };
+            BulkServiceAction.prototype.executeForBatch = function (batch) {
+            };
+            BulkServiceAction.prototype.executeNextBatch = function () {
+                var batchSize = this.getBatchSize();
+                var batch = [];
+                while (true) {
+                    if (batch.length >= batchSize) {
+                        break;
+                    }
+                    if (this.queueIndex >= this.queue.length) {
+                        break;
+                    }
+                    batch.push(this.queue[this.queueIndex++]);
+                }
+                if (batch.length > 0) {
+                    this.pendingRequests++;
+                    this.executeForBatch(batch);
+                }
+            };
+            BulkServiceAction.prototype.getAllHadErrorsFormat = function () {
+                return Q.text('Site.BulkServiceAction.AllHadErrorsFormat');
+            };
+            BulkServiceAction.prototype.showAllHadErrors = function () {
+                Q.notifyError(Q.format(this.getAllHadErrorsFormat(), this.errorCount));
+            };
+            BulkServiceAction.prototype.getSomeHadErrorsFormat = function () {
+                return Q.text('Site.BulkServiceAction.SomeHadErrorsFormat');
+            };
+            BulkServiceAction.prototype.showSomeHadErrors = function () {
+                Q.notifyWarning(Q.format(this.getSomeHadErrorsFormat(), this.successCount, this.errorCount));
+            };
+            BulkServiceAction.prototype.getAllSuccessFormat = function () {
+                return Q.text('Site.BulkServiceAction.AllSuccessFormat');
+            };
+            BulkServiceAction.prototype.showAllSuccess = function () {
+                Q.notifySuccess(Q.format(this.getAllSuccessFormat(), this.successCount));
+            };
+            BulkServiceAction.prototype.showResults = function () {
+                if (this.errorCount === 0 && this.successCount === 0) {
+                    this.nothingToProcess();
+                    return;
+                }
+                if (this.errorCount > 0 && this.successCount === 0) {
+                    this.showAllHadErrors();
+                    return;
+                }
+                if (this.errorCount > 0) {
+                    this.showSomeHadErrors();
+                    return;
+                }
+                this.showAllSuccess();
+            };
+            BulkServiceAction.prototype.execute = function (keys) {
+                var _this = this;
+                this.keys = keys;
+                if (this.keys.length === 0) {
+                    this.nothingToProcess();
+                    return;
+                }
+                this.confirm(this.keys.length, function () { return _this.startParallelExecution(); });
+            };
+            BulkServiceAction.prototype.get_successCount = function () {
+                return this.successCount;
+            };
+            BulkServiceAction.prototype.set_successCount = function (value) {
+                this.successCount = value;
+            };
+            BulkServiceAction.prototype.get_errorCount = function () {
+                return this.errorCount;
+            };
+            BulkServiceAction.prototype.set_errorCount = function (value) {
+                this.errorCount = value;
+            };
+            return BulkServiceAction;
+        }());
+        Common.BulkServiceAction = BulkServiceAction;
+    })(Common = MovieTutorial.Common || (MovieTutorial.Common = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
@@ -3715,738 +2136,6 @@ var MovieTutorial;
             ReportHelper.createToolButton = createToolButton;
         })(ReportHelper = Common.ReportHelper || (Common.ReportHelper = {}));
     })(Common = MovieTutorial.Common || (MovieTutorial.Common = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var ViewWithoutIDGrid = (function (_super) {
-            __extends(ViewWithoutIDGrid, _super);
-            function ViewWithoutIDGrid(container) {
-                _super.call(this, container);
-                // this is our autoincrementing counter
-                this.nextId = 1;
-            }
-            ViewWithoutIDGrid.prototype.getColumnsKey = function () { return "Northwind.SalesByCategory"; };
-            ViewWithoutIDGrid.prototype.getIdProperty = function () { return "__id"; };
-            ViewWithoutIDGrid.prototype.getNameProperty = function () { return MovieTutorial.Northwind.SalesByCategoryRow.nameProperty; };
-            ViewWithoutIDGrid.prototype.getLocalTextPrefix = function () { return MovieTutorial.Northwind.SalesByCategoryRow.localTextPrefix; };
-            ViewWithoutIDGrid.prototype.getService = function () { return MovieTutorial.Northwind.SalesByCategoryService.baseUrl; };
-            /**
-             * This method is called to preprocess data returned from the list service
-             */
-            ViewWithoutIDGrid.prototype.onViewProcessData = function (response) {
-                response = _super.prototype.onViewProcessData.call(this, response);
-                // there is no __id property in SalesByCategoryRow but 
-                // this is javascript and we can set any property of an object
-                for (var _i = 0, _a = response.Entities; _i < _a.length; _i++) {
-                    var x = _a[_i];
-                    x.__id = this.nextId++;
-                }
-                return response;
-            };
-            ViewWithoutIDGrid.prototype.getButtons = function () {
-                return [];
-            };
-            ViewWithoutIDGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], ViewWithoutIDGrid);
-            return ViewWithoutIDGrid;
-        }(Serenity.EntityGrid));
-        BasicSamples.ViewWithoutIDGrid = ViewWithoutIDGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Product/ProductGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var GroupingAndSummariesInGrid = (function (_super) {
-            __extends(GroupingAndSummariesInGrid, _super);
-            function GroupingAndSummariesInGrid(container) {
-                _super.call(this, container);
-            }
-            GroupingAndSummariesInGrid.prototype.createSlickGrid = function () {
-                var grid = _super.prototype.createSlickGrid.call(this);
-                // need to register this plugin for grouping or you'll have errors
-                grid.registerPlugin(new Slick.Data.GroupItemMetadataProvider());
-                this.view.setSummaryOptions({
-                    aggregators: [
-                        new Slick.Aggregators.Avg('UnitPrice'),
-                        new Slick.Aggregators.Sum('UnitsInStock'),
-                        new Slick.Aggregators.Max('UnitsOnOrder'),
-                        new Slick.Aggregators.Avg('ReorderLevel')
-                    ]
-                });
-                return grid;
-            };
-            GroupingAndSummariesInGrid.prototype.getColumns = function () {
-                var columns = _super.prototype.getColumns.call(this);
-                Q.first(columns, function (x) { return x.field === 'UnitsOnOrder'; })
-                    .groupTotalsFormatter = function (totals, col) {
-                    return (totals.max ? ('max: ' + Q.coalesce(totals.max[col.field], '')) : '');
-                };
-                Q.first(columns, function (x) { return x.field === 'ReorderLevel'; })
-                    .groupTotalsFormatter = function (totals, col) {
-                    return (totals.avg ? ('avg: ' + Q.coalesce(Q.formatNumber(totals.avg[col.field], '0.'), '')) : '');
-                };
-                return columns;
-            };
-            GroupingAndSummariesInGrid.prototype.getSlickOptions = function () {
-                var opt = _super.prototype.getSlickOptions.call(this);
-                opt.showFooterRow = true;
-                return opt;
-            };
-            GroupingAndSummariesInGrid.prototype.usePager = function () {
-                return false;
-            };
-            GroupingAndSummariesInGrid.prototype.getButtons = function () {
-                var _this = this;
-                return [{
-                        title: 'Group By Category',
-                        cssClass: 'expand-all-button',
-                        onClick: function () { return _this.view.setGrouping([{
-                                getter: 'CategoryName'
-                            }]); }
-                    },
-                    {
-                        title: 'Group By Category and Supplier',
-                        cssClass: 'expand-all-button',
-                        onClick: function () { return _this.view.setGrouping([{
-                                formatter: function (x) { return 'Category: ' + x.value + ' (' + x.count + ' items)'; },
-                                getter: 'CategoryName'
-                            }, {
-                                formatter: function (x) { return 'Supplier: ' + x.value + ' (' + x.count + ' items)'; },
-                                getter: 'SupplierCompanyName'
-                            }]); }
-                    }, {
-                        title: 'No Grouping',
-                        cssClass: 'collapse-all-button',
-                        onClick: function () { return _this.view.setGrouping([]); }
-                    }];
-            };
-            GroupingAndSummariesInGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], GroupingAndSummariesInGrid);
-            return GroupingAndSummariesInGrid;
-        }(MovieTutorial.Northwind.ProductGrid));
-        BasicSamples.GroupingAndSummariesInGrid = GroupingAndSummariesInGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Product/ProductGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var GridFilteredByCriteria = (function (_super) {
-            __extends(GridFilteredByCriteria, _super);
-            function GridFilteredByCriteria(container) {
-                _super.call(this, container);
-            }
-            GridFilteredByCriteria.prototype.onViewSubmit = function () {
-                // only continue if base class returns true (didn't cancel request)
-                if (!_super.prototype.onViewSubmit.call(this)) {
-                    return false;
-                }
-                // view object is the data source for grid (SlickRemoteView)
-                // this is an EntityGrid so its Params object is a ListRequest
-                var request = this.view.params;
-                // list request has a Criteria parameter
-                // we AND criteria here to existing one because 
-                // otherwise we might clear filter set by 
-                // an edit filter dialog if any.
-                request.Criteria = Serenity.Criteria.and(request.Criteria, [['UnitsInStock'], '>', 10], [['CategoryName'], '!=', 'Condiments'], [['Discontinued'], '=', 0]);
-                // TypeScript doesn't support operator overloading
-                // so we had to use array syntax above to build criteria.
-                // Make sure you write
-                // [['Field'], '>', 10] (which means field A is greater than 10)
-                // not 
-                // ['A', '>', 10] (which means string 'A' is greater than 10
-                return true;
-            };
-            GridFilteredByCriteria = __decorate([
-                Serenity.Decorators.registerClass()
-            ], GridFilteredByCriteria);
-            return GridFilteredByCriteria;
-        }(MovieTutorial.Northwind.ProductGrid));
-        BasicSamples.GridFilteredByCriteria = GridFilteredByCriteria;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Order/OrderGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var CancellableBulkActionGrid = (function (_super) {
-            __extends(CancellableBulkActionGrid, _super);
-            function CancellableBulkActionGrid(container) {
-                _super.call(this, container);
-            }
-            CancellableBulkActionGrid.prototype.createToolbarExtensions = function () {
-                _super.prototype.createToolbarExtensions.call(this);
-                this.rowSelection = new Serenity.GridRowSelectionMixin(this);
-            };
-            CancellableBulkActionGrid.prototype.getButtons = function () {
-                var _this = this;
-                return [{
-                        title: 'Perform Bulk Action on Selected Orders',
-                        cssClass: 'send-button',
-                        onClick: function () {
-                            if (!_this.onViewSubmit()) {
-                                return;
-                            }
-                            var action = new BasicSamples.OrderBulkAction();
-                            action.done = function () { return _this.rowSelection.resetCheckedAndRefresh(); };
-                            action.execute(_this.rowSelection.getSelectedKeys());
-                        }
-                    }];
-            };
-            CancellableBulkActionGrid.prototype.getColumns = function () {
-                var _this = this;
-                var columns = _super.prototype.getColumns.call(this);
-                columns.splice(0, 0, Serenity.GridRowSelectionMixin.createSelectColumn(function () { return _this.rowSelection; }));
-                return columns;
-            };
-            CancellableBulkActionGrid.prototype.getViewOptions = function () {
-                var opt = _super.prototype.getViewOptions.call(this);
-                opt.rowsPerPage = 2500;
-                return opt;
-            };
-            CancellableBulkActionGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], CancellableBulkActionGrid);
-            return CancellableBulkActionGrid;
-        }(MovieTutorial.Northwind.OrderGrid));
-        BasicSamples.CancellableBulkActionGrid = CancellableBulkActionGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Product/ProductDialog.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * This is our custom product dialog that uses a different product form
-         * (LookupFilterByMultipleForm) with our special category editor.
-         */
-        var LookupFilterByMultipleDialog = (function (_super) {
-            __extends(LookupFilterByMultipleDialog, _super);
-            function LookupFilterByMultipleDialog() {
-                _super.apply(this, arguments);
-            }
-            LookupFilterByMultipleDialog.prototype.getFormKey = function () { return BasicSamples.LookupFilterByMultipleForm.formKey; };
-            LookupFilterByMultipleDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], LookupFilterByMultipleDialog);
-            return LookupFilterByMultipleDialog;
-        }(MovieTutorial.Northwind.ProductDialog));
-        BasicSamples.LookupFilterByMultipleDialog = LookupFilterByMultipleDialog;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Product/ProductGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Subclass of ProductGrid to override dialog type to CloneableEntityDialog
-         */
-        var LookupFilterByMultipleGrid = (function (_super) {
-            __extends(LookupFilterByMultipleGrid, _super);
-            function LookupFilterByMultipleGrid(container) {
-                _super.call(this, container);
-            }
-            LookupFilterByMultipleGrid.prototype.getDialogType = function () { return BasicSamples.LookupFilterByMultipleDialog; };
-            /**
-             * This method is called just before List request is sent to service.
-             * You have an opportunity here to cancel request or modify it.
-             * Here we'll add a custom criteria to list request.
-             */
-            LookupFilterByMultipleGrid.prototype.onViewSubmit = function () {
-                if (!_super.prototype.onViewSubmit.call(this)) {
-                    return false;
-                }
-                // this has no relation to our lookup editor but as we'll allow picking only 
-                // categories of Produce and Seafood in product dialog, it's better to show
-                // only products from these categories in grid too
-                var request = this.view.params;
-                request.Criteria = Serenity.Criteria.and(request.Criteria, [['CategoryName'], 'in', [['Produce', 'Seafood']]]);
-                // brackets used are important above, NOT ['CategoryName', 'in', ['Produce', 'Seafood']]
-                return true;
-            };
-            LookupFilterByMultipleGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], LookupFilterByMultipleGrid);
-            return LookupFilterByMultipleGrid;
-        }(MovieTutorial.Northwind.ProductGrid));
-        BasicSamples.LookupFilterByMultipleGrid = LookupFilterByMultipleGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * This is our category editor that will show only categories of Produce and
-         * Seafood. We are subclassing LookupEditorBase which also LookupEditor
-         * derives from.
-         *
-         * After compiling and transforming templates, this editor type will be
-         * available in server side to use in our LookupFilterByMultipleForm,
-         * which is a version of ProductForm that uses our custom editor.
-         */
-        var ProduceSeafoodCategoryEditor = (function (_super) {
-            __extends(ProduceSeafoodCategoryEditor, _super);
-            function ProduceSeafoodCategoryEditor(container, opt) {
-                _super.call(this, container, opt);
-            }
-            /**
-             * Normally LookupEditor requires a lookup key to determine which set of
-             * lookup data to show in editor. As our editor will only show category
-             * data, we lock it to category lookup key.
-             */
-            ProduceSeafoodCategoryEditor.prototype.getLookupKey = function () {
-                return MovieTutorial.Northwind.CategoryRow.lookupKey;
-            };
-            /**
-             * Here we are filtering by category name but you could filter by any field.
-             * Just make sure the fields you filter on has [LookupInclude] attribute on them,
-             * otherwise their value will be null in client side as they are not sent back
-             * from server in lookup script.
-             */
-            ProduceSeafoodCategoryEditor.prototype.getItems = function (lookup) {
-                return _super.prototype.getItems.call(this, lookup).filter(function (x) {
-                    return x.CategoryName === 'Produce' || x.CategoryName === 'Seafood';
-                });
-            };
-            ProduceSeafoodCategoryEditor = __decorate([
-                Serenity.Decorators.registerEditor()
-            ], ProduceSeafoodCategoryEditor);
-            return ProduceSeafoodCategoryEditor;
-        }(Serenity.LookupEditorBase));
-        BasicSamples.ProduceSeafoodCategoryEditor = ProduceSeafoodCategoryEditor;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/OrderDetail/OrderDetailsEditor.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Our subclass of Order Details editor with a CategoryID property
-         */
-        var FilteredLookupDetailEditor = (function (_super) {
-            __extends(FilteredLookupDetailEditor, _super);
-            function FilteredLookupDetailEditor(container) {
-                _super.call(this, container);
-            }
-            FilteredLookupDetailEditor.prototype.getDialogType = function () { return BasicSamples.FilteredLookupOrderDetailDialog; };
-            /**
-             * This method is called to initialize an edit dialog created by
-             * grid editor when Add button or an edit link is clicked
-             * We have an opportunity here to pass CategoryID to edit dialog
-             */
-            FilteredLookupDetailEditor.prototype.initEntityDialog = function (itemType, dialog) {
-                _super.prototype.initEntityDialog.call(this, itemType, dialog);
-                // passing category ID from grid editor to detail dialog
-                dialog.categoryID = this.categoryID;
-            };
-            FilteredLookupDetailEditor = __decorate([
-                Serenity.Decorators.registerEditor()
-            ], FilteredLookupDetailEditor);
-            return FilteredLookupDetailEditor;
-        }(MovieTutorial.Northwind.OrderDetailsEditor));
-        BasicSamples.FilteredLookupDetailEditor = FilteredLookupDetailEditor;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Basic order dialog with a category selection
-         */
-        var FilteredLookupInDetailDialog = (function (_super) {
-            __extends(FilteredLookupInDetailDialog, _super);
-            function FilteredLookupInDetailDialog() {
-                var _this = this;
-                _super.call(this);
-                this.form = new BasicSamples.FilteredLookupInDetailForm(this.idPrefix);
-                this.form.CategoryID.change(function (e) {
-                    _this.form.DetailList.categoryID = Q.toId(_this.form.CategoryID.value);
-                });
-            }
-            FilteredLookupInDetailDialog.prototype.getFormKey = function () { return BasicSamples.FilteredLookupInDetailForm.formKey; };
-            FilteredLookupInDetailDialog.prototype.getIdProperty = function () { return MovieTutorial.Northwind.OrderRow.idProperty; };
-            FilteredLookupInDetailDialog.prototype.getLocalTextPrefix = function () { return MovieTutorial.Northwind.OrderRow.localTextPrefix; };
-            FilteredLookupInDetailDialog.prototype.getNameProperty = function () { return MovieTutorial.Northwind.OrderRow.nameProperty; };
-            FilteredLookupInDetailDialog.prototype.getService = function () { return MovieTutorial.Northwind.OrderService.baseUrl; };
-            FilteredLookupInDetailDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], FilteredLookupInDetailDialog);
-            return FilteredLookupInDetailDialog;
-        }(Serenity.EntityDialog));
-        BasicSamples.FilteredLookupInDetailDialog = FilteredLookupInDetailDialog;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Order/OrderGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Subclass of OrderGrid to override dialog type to FilteredLookupInDetailDialog
-         */
-        var FilteredLookupInDetailGrid = (function (_super) {
-            __extends(FilteredLookupInDetailGrid, _super);
-            function FilteredLookupInDetailGrid(container) {
-                _super.call(this, container);
-            }
-            FilteredLookupInDetailGrid.prototype.getDialogType = function () { return BasicSamples.FilteredLookupInDetailDialog; };
-            FilteredLookupInDetailGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], FilteredLookupInDetailGrid);
-            return FilteredLookupInDetailGrid;
-        }(MovieTutorial.Northwind.OrderGrid));
-        BasicSamples.FilteredLookupInDetailGrid = FilteredLookupInDetailGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/OrderDetail/OrderDetailDialog.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Our subclass of order detail dialog with a CategoryID property
-         * that will be used to set CascadeValue of product editor
-         */
-        var FilteredLookupOrderDetailDialog = (function (_super) {
-            __extends(FilteredLookupOrderDetailDialog, _super);
-            function FilteredLookupOrderDetailDialog() {
-                _super.call(this);
-                this.form = new MovieTutorial.Northwind.OrderDetailForm(this.idPrefix);
-                // we can set cascade field in constructor
-                // we could also use FilterField but in this case, when CategoryID is null
-                // lookup editor would show all products in any category
-                this.form.ProductID.cascadeField = MovieTutorial.Northwind.ProductRow.Fields.CategoryID;
-                // but CategoryID value is not yet available here as detail editor will set it 
-                // after calling constructor (creating a detail dialog) so we'll use BeforeLoadEntity
-            }
-            /**
-             * This method is called just before an entity is loaded to dialog
-             * This is also called for new record mode with an empty entity
-             */
-            FilteredLookupOrderDetailDialog.prototype.beforeLoadEntity = function (entity) {
-                _super.prototype.beforeLoadEntity.call(this, entity);
-                // setting cascade value here
-                // make sure you have [LookupInclude] on CategoryID property of ProductRow
-                // otherwise this field won't be available in lookup script (will always be null),
-                // so can't be filtered and you'll end up with an empty product list.
-                this.form.ProductID.cascadeValue = this.categoryID;
-            };
-            FilteredLookupOrderDetailDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], FilteredLookupOrderDetailDialog);
-            return FilteredLookupOrderDetailDialog;
-        }(MovieTutorial.Northwind.OrderDetailDialog));
-        BasicSamples.FilteredLookupOrderDetailDialog = FilteredLookupOrderDetailDialog;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Adding Responsive attribute makes this dialog use full screen in mobile devices.
-         */
-        var ResponsiveDialog = (function (_super) {
-            __extends(ResponsiveDialog, _super);
-            function ResponsiveDialog() {
-                _super.call(this);
-            }
-            ResponsiveDialog.prototype.getFormKey = function () { return MovieTutorial.Northwind.OrderForm.formKey; };
-            ResponsiveDialog.prototype.getIdProperty = function () { return MovieTutorial.Northwind.OrderRow.idProperty; };
-            ResponsiveDialog.prototype.getLocalTextPrefix = function () { return MovieTutorial.Northwind.OrderRow.localTextPrefix; };
-            ResponsiveDialog.prototype.getNameProperty = function () { return MovieTutorial.Northwind.OrderRow.nameProperty; };
-            ResponsiveDialog.prototype.getService = function () { return MovieTutorial.Northwind.OrderService.baseUrl; };
-            ResponsiveDialog = __decorate([
-                Serenity.Decorators.registerClass(),
-                Serenity.Decorators.responsive(),
-                Serenity.Decorators.maximizable()
-            ], ResponsiveDialog);
-            return ResponsiveDialog;
-        }(Serenity.EntityDialog));
-        BasicSamples.ResponsiveDialog = ResponsiveDialog;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Order/OrderGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Subclass of OrderGrid to override dialog type to ResponsiveDialog
-         */
-        var ResponsiveGrid = (function (_super) {
-            __extends(ResponsiveGrid, _super);
-            function ResponsiveGrid(container) {
-                _super.call(this, container);
-            }
-            ResponsiveGrid.prototype.getDialogType = function () { return BasicSamples.ResponsiveDialog; };
-            ResponsiveGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], ResponsiveGrid);
-            return ResponsiveGrid;
-        }(MovieTutorial.Northwind.OrderGrid));
-        BasicSamples.ResponsiveGrid = ResponsiveGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Order/OrderDialog.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Styling for columns is done with CSS in site.basicsamples.less file.
-         * When comparing this to MultiColumnDialog sample, you may notice that
-         * this version requires much less JS and CSS code.
-         */
-        var MultiColumnResponsiveDialog = (function (_super) {
-            __extends(MultiColumnResponsiveDialog, _super);
-            function MultiColumnResponsiveDialog() {
-                _super.call(this);
-            }
-            MultiColumnResponsiveDialog = __decorate([
-                Serenity.Decorators.registerClass()
-            ], MultiColumnResponsiveDialog);
-            return MultiColumnResponsiveDialog;
-        }(MovieTutorial.Northwind.OrderDialog));
-        BasicSamples.MultiColumnResponsiveDialog = MultiColumnResponsiveDialog;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Order/OrderGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Subclass of OrderGrid to override dialog type to MultiColumnResponsiveDialog
-         */
-        var MultiColumnResponsiveGrid = (function (_super) {
-            __extends(MultiColumnResponsiveGrid, _super);
-            function MultiColumnResponsiveGrid(container) {
-                _super.call(this, container);
-            }
-            MultiColumnResponsiveGrid.prototype.getDialogType = function () { return BasicSamples.MultiColumnResponsiveDialog; };
-            MultiColumnResponsiveGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], MultiColumnResponsiveGrid);
-            return MultiColumnResponsiveGrid;
-        }(MovieTutorial.Northwind.OrderGrid));
-        BasicSamples.MultiColumnResponsiveGrid = MultiColumnResponsiveGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Order/OrderGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var DefaultValuesInNewGrid = (function (_super) {
-            __extends(DefaultValuesInNewGrid, _super);
-            function DefaultValuesInNewGrid(container) {
-                _super.call(this, container);
-            }
-            /**
-             * This method is called when New Item button is clicked.
-             * By default, it calls EditItem with an empty entity.
-             * This is a good place to fill in default values for New Item button.
-             */
-            DefaultValuesInNewGrid.prototype.addButtonClick = function () {
-                this.editItem({
-                    CustomerID: 'ANTON',
-                    RequiredDate: Q.formatDate(new Date(), 'yyyy-MM-dd'),
-                    EmployeeID: MovieTutorial.Northwind.EmployeeRow.getLookup().items
-                        .filter(function (x) { return x.FullName === 'Robert King'; })[0].EmployeeID,
-                    ShipVia: MovieTutorial.Northwind.ShipperRow.getLookup().items
-                        .filter(function (x) { return x.CompanyName === 'Speedy Express'; })[0].ShipperID
-                });
-            };
-            DefaultValuesInNewGrid.prototype.getButtons = function () {
-                var _this = this;
-                // preserving default New Item button
-                var buttons = _super.prototype.getButtons.call(this);
-                buttons.push({
-                    title: 'Add Order from the Queen',
-                    cssClass: 'add-button',
-                    onClick: function () {
-                        // using EditItem method as a shortcut to create a new Order dialog,
-                        // bind to its events, load our order row, and open dialog
-                        _this.editItem({
-                            CustomerID: 'QUEEN',
-                            EmployeeID: MovieTutorial.Northwind.EmployeeRow.getLookup().items
-                                .filter(function (x) { return x.FullName === 'Nancy Davolio'; })[0].EmployeeID,
-                            ShipVia: MovieTutorial.Northwind.ShipperRow.getLookup().items
-                                .filter(function (x) { return x.CompanyName === 'United Package'; })[0].ShipperID
-                        });
-                    }
-                });
-                buttons.push({
-                    title: 'Add Order with 5 Chai by Laura', cssClass: 'add-note-button',
-                    onClick: function () {
-                        // we could use EditItem here too, but for demonstration
-                        // purposes we are manually creating dialog this time
-                        var dlg = new MovieTutorial.Northwind.OrderDialog();
-                        // let grid watch for changes to manually created dialog, 
-                        // so when a new item is saved, grid can refresh itself
-                        _this.initDialog(dlg);
-                        // get a reference to product Chai
-                        var chai = MovieTutorial.Northwind.ProductRow.getLookup().items
-                            .filter(function (x) { return x.ProductName === 'Chai'; })[0];
-                        // LoadEntityAndOpenDialog, loads an OrderRow 
-                        // to dialog and opens it
-                        var lauraCallahanID = MovieTutorial.Northwind.EmployeeRow.getLookup().items
-                            .filter(function (x) { return x.FullName === 'Laura Callahan'; })[0].EmployeeID;
-                        dlg.loadEntityAndOpenDialog({
-                            CustomerID: 'GOURL',
-                            EmployeeID: lauraCallahanID,
-                            DetailList: [{
-                                    ProductID: chai.ProductID,
-                                    ProductName: chai.ProductName,
-                                    UnitPrice: chai.UnitPrice,
-                                    Quantity: 5,
-                                    LineTotal: chai.UnitPrice * 5
-                                }]
-                        });
-                    }
-                });
-                return buttons;
-            };
-            DefaultValuesInNewGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], DefaultValuesInNewGrid);
-            return DefaultValuesInNewGrid;
-        }(MovieTutorial.Northwind.OrderGrid));
-        BasicSamples.DefaultValuesInNewGrid = DefaultValuesInNewGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Product/ProductDialog.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var CloneableEntityDialog = (function (_super) {
-            __extends(CloneableEntityDialog, _super);
-            function CloneableEntityDialog() {
-                _super.apply(this, arguments);
-            }
-            CloneableEntityDialog.prototype.updateInterface = function () {
-                // by default cloneButton is hidden in base UpdateInterface method
-                _super.prototype.updateInterface.call(this);
-                // here we show it if it is edit mode (not new)
-                this.cloneButton.toggle(this.isEditMode());
-            };
-            /**
-             * Overriding this method is optional to customize cloned entity
-             */
-            CloneableEntityDialog.prototype.getCloningEntity = function () {
-                var clone = _super.prototype.getCloningEntity.call(this);
-                // add (Clone) suffix if it's not already added
-                var suffix = ' (Clone)';
-                if (!Q.endsWith(clone.ProductName || '', suffix)) {
-                    clone.ProductName = (clone.ProductName || '') + suffix;
-                }
-                // it's better to clear image for this sample
-                // otherwise we would have to create a temporary copy of it
-                // and upload
-                clone.ProductImage = null;
-                // let's clear fields not logical to be cloned
-                clone.UnitsInStock = 0;
-                clone.UnitsOnOrder = 0;
-                return clone;
-            };
-            CloneableEntityDialog = __decorate([
-                Serenity.Decorators.registerClass(),
-                Serenity.Decorators.maximizable()
-            ], CloneableEntityDialog);
-            return CloneableEntityDialog;
-        }(MovieTutorial.Northwind.ProductDialog));
-        BasicSamples.CloneableEntityDialog = CloneableEntityDialog;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-/// <reference path="../../../Northwind/Product/ProductGrid.ts" />
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        /**
-         * Subclass of ProductGrid to override dialog type to CloneableEntityDialog
-         */
-        var CloneableEntityGrid = (function (_super) {
-            __extends(CloneableEntityGrid, _super);
-            function CloneableEntityGrid(container) {
-                _super.call(this, container);
-            }
-            CloneableEntityGrid.prototype.getDialogType = function () { return BasicSamples.CloneableEntityDialog; };
-            CloneableEntityGrid = __decorate([
-                Serenity.Decorators.registerClass()
-            ], CloneableEntityGrid);
-            return CloneableEntityGrid;
-        }(MovieTutorial.Northwind.ProductGrid));
-        BasicSamples.CloneableEntityGrid = CloneableEntityGrid;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
-})(MovieTutorial || (MovieTutorial = {}));
-var MovieTutorial;
-(function (MovieTutorial) {
-    var BasicSamples;
-    (function (BasicSamples) {
-        var ChartInDialog = (function (_super) {
-            __extends(ChartInDialog, _super);
-            function ChartInDialog() {
-                _super.apply(this, arguments);
-            }
-            ChartInDialog.initializePage = function () {
-                $(function () {
-                    $('#LaunchDialogButton').click(function (e) {
-                        (new ChartInDialog()).dialogOpen();
-                    });
-                });
-            };
-            ChartInDialog.prototype.onDialogOpen = function () {
-                var _this = this;
-                _super.prototype.onDialogOpen.call(this);
-                BasicSamples.BasicSamplesService.OrdersByShipper({}, function (response) {
-                    _this.areaChart = new Morris.Area({
-                        element: _this.idPrefix + 'Chart',
-                        resize: true, parseTime: false,
-                        data: response.Values,
-                        xkey: 'Month',
-                        ykeys: response.ShipperKeys, labels: response.ShipperLabels, hideHover: 'auto'
-                    });
-                });
-                this.element.closest('.ui-dialog').bind('resize', function () { return _this.arrange(); });
-            };
-            ChartInDialog.prototype.arrange = function () {
-                _super.prototype.arrange.call(this);
-                this.areaChart && this.areaChart.redraw();
-            };
-            ChartInDialog.prototype.getTemplate = function () {
-                // you could also put this in a ChartInDialog.Template.html file. it's here for simplicity.
-                return "<div id='~_Chart'></div>";
-            };
-            ChartInDialog.prototype.getDialogOptions = function () {
-                var opt = _super.prototype.getDialogOptions.call(this);
-                opt.title = 'Orders by Shipper';
-                return opt;
-            };
-            ChartInDialog = __decorate([
-                Serenity.Decorators.registerClass(),
-                Serenity.Decorators.resizable(),
-                Serenity.Decorators.maximizable()
-            ], ChartInDialog);
-            return ChartInDialog;
-        }(Serenity.TemplatedDialog));
-        BasicSamples.ChartInDialog = ChartInDialog;
-    })(BasicSamples = MovieTutorial.BasicSamples || (MovieTutorial.BasicSamples = {}));
 })(MovieTutorial || (MovieTutorial = {}));
 var MovieTutorial;
 (function (MovieTutorial) {
